@@ -1,5 +1,12 @@
 <template>
   <div class="about">
-    <h1>This is an about page</h1>
+    <p>This is an about page</p>
   </div>
 </template>
+<style scoped>
+p {
+  margin: 100px;
+  font-size: 50px;
+  font-weight: bold;
+}
+</style>
