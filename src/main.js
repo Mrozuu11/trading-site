@@ -9,9 +9,10 @@ import {
   faHeart,
   faUser,
 } from "@fortawesome/free-regular-svg-icons";
+import { faSearch, faSearchLocation } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/vue-fontawesome";
 
-library.add(faComment, faHeart, faUser);
+library.add(faComment, faHeart, faUser, faSearch, faSearchLocation);
 
 Vue.component("font-awesome-icon", FontAwesomeIcon);
 

@@ -46,9 +46,6 @@ a {
   color: inherit;
 }
 
-a:hover {
-  text-decoration: underline;
-}
 .header {
   background: #002f34;
   height: 72px;
@@ -90,7 +87,7 @@ a:hover {
         }
 
         a:hover {
-          color: red;
+          color: #7f9799;
         }
 
         .link {
@@ -103,11 +100,15 @@ a:hover {
         color: #002f34;
         align-items: center;
         justify-content: center;
-        padding: 13px 22px;
+        padding: 14px 5px;
         border-radius: 4px;
 
+        a {
+          padding: 10px 10px;
+        }
         a:hover {
-          background: lavender;
+          color: white;
+          background: #002f34;
         }
       }
     }
