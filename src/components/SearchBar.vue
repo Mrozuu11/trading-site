@@ -87,7 +87,7 @@ export default {
   padding: 40px;
 
   .search-wrapper {
-    width: 1238px;
+    width: 68vw;
     background: white;
     margin: auto;
 
@@ -145,6 +145,7 @@ export default {
       a:hover {
         background: #002f34;
         color: white;
+        transition: all 0.3s ease;
         .btn {
           color: inherit;
         }

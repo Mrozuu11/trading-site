@@ -59,12 +59,13 @@ a {
   justify-content: center;
 
   .header-content {
-    width: 1238px;
+    width: 68vw;
     padding: 0 24px 0 24px;
     height: 70px;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    flex-wrap: wrap;
 
     .logo {
       padding: 0 10px 0 10px;
@@ -77,6 +78,7 @@ a {
       align-content: center;
       color: white;
       gap: 30px;
+      flex-wrap: wrap;
 
       .links-list {
         margin: auto;
@@ -98,8 +100,6 @@ a {
       .add-advertisement {
         background: white;
         color: #002f34;
-        align-items: center;
-        justify-content: center;
         padding: 14px 5px;
         border-radius: 4px;
 
@@ -109,6 +109,7 @@ a {
         a:hover {
           color: white;
           background: #002f34;
+          transition: all 0.3s ease;
         }
       }
     }
