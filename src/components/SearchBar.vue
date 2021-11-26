@@ -21,9 +21,12 @@
           </div>
           <form class="search-location">
             <input
+              v-model="selected"
               type="search"
               list="places"
               name="place"
+              onfocus="this.value=''"
+              onchange="this.blur();"
               placeholder="Cała Polska"
             />
             <datalist id="places">
@@ -53,6 +56,7 @@ export default {
   data() {
     return {
       query: "",
+      selected: "Cała Polska",
       options: [
         "Cała Polska",
         "Dolnośląskie",

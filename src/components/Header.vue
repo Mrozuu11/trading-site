@@ -48,7 +48,7 @@ a {
 
 .header {
   background: #002f34;
-  height: 72px;
+  padding: 13px 0px;
   font-size: 16px;
   font-weight: bold;
   position: fixed;
@@ -61,7 +61,6 @@ a {
   .header-content {
     width: 68vw;
     padding: 0 24px 0 24px;
-    height: 70px;
     display: flex;
     justify-content: space-between;
     align-items: center;
