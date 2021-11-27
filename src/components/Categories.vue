@@ -6,7 +6,7 @@
         <div class="categories-item">
           <a href="">
             <img
-              class="image motoryzacja"
+              class="motoryzacja"
               src="@/assets/categories/motoryzacja.png"
               alt="motoryzacja"
             />
@@ -16,7 +16,7 @@
         <div class="categories-item">
           <a href="">
             <img
-              class="image nieruchomosci"
+              class="nieruchomosci"
               src="@/assets/categories/nieruchomosci.png"
               alt="nieruchomosci"
             />
@@ -26,7 +26,7 @@
         <div class="categories-item">
           <a href="">
             <img
-              class="image praca"
+              class="praca"
               src="@/assets/categories/praca.png"
               alt="praca"
             />
@@ -36,7 +36,7 @@
         <div class="categories-item">
           <a href="">
             <img
-              class="image dom"
+              class="dom"
               src="@/assets/categories/dom-i-ogrod.png"
               alt="dom-i-ogrod"
             />
@@ -46,7 +46,7 @@
         <div class="categories-item">
           <a href="">
             <img
-              class="image elektronika"
+              class="elektronika"
               src="@/assets/categories/elektronika.png"
               alt="elektronika"
             />
@@ -55,18 +55,14 @@
         </div>
         <div class="categories-item">
           <a href="">
-            <img
-              class="image moda"
-              src="@/assets/categories/moda.png"
-              alt="moda"
-            />
+            <img class="moda" src="@/assets/categories/moda.png" alt="moda" />
             <div class="description">Moda</div>
           </a>
         </div>
         <div class="categories-item">
           <a href="">
             <img
-              class="image rolnictwo"
+              class="rolnictwo"
               src="@/assets/categories/rolnictwo.png"
               alt="rolnictwo"
             />
@@ -76,7 +72,7 @@
         <div class="categories-item">
           <a href="">
             <img
-              class="image zwierzeta"
+              class="zwierzeta"
               src="@/assets/categories/zwierzeta.png"
               alt="zwierzeta"
             />
@@ -86,7 +82,7 @@
         <div class="categories-item">
           <a href="">
             <img
-              class="image dzieci"
+              class="dzieci"
               src="@/assets/categories/dzieci.png"
               alt="dzieci"
             />
@@ -96,7 +92,7 @@
         <div class="categories-item">
           <a href="">
             <img
-              class="image sport"
+              class="sport"
               src="@/assets/categories/sport.png"
               alt="sport"
             />
@@ -106,7 +102,7 @@
         <div class="categories-item">
           <a href="">
             <img
-              class="image muzyka"
+              class="muzyka"
               src="@/assets/categories/muzyka.png"
               alt="muzyka"
             />
@@ -116,7 +112,7 @@
         <div class="categories-item">
           <a href="">
             <img
-              class="image uslugi"
+              class="uslugi"
               src="@/assets/categories/uslugi.png"
               alt="uslugi"
             />
@@ -126,8 +122,8 @@
         <div class="categories-item">
           <a href="">
             <img
-              class="image noclegi"
-              src="@/assets/categories/motoryzacja.png"
+              class="noclegi"
+              src="@/assets/categories/noclegi.png"
               alt="noclegi"
             />
             <div class="description">Noclegi</div>
@@ -136,7 +132,7 @@
         <div class="categories-item">
           <a href="">
             <img
-              class="image darmo"
+              class="darmo"
               src="@/assets/categories/darmo.png"
               alt="za-darmo"
             />
@@ -146,7 +142,7 @@
         <div class="categories-item">
           <a href="">
             <img
-              class="image zamienie"
+              class="zamienie"
               src="@/assets/categories/zamienie.png"
               alt="zamienie"
             />
@@ -156,8 +152,8 @@
         <div class="categories-item">
           <a href="">
             <img
-              class="image dostawca"
-              src="@/assets/categories/motoryzacja.png"
+              class="dostawca"
+              src="@/assets/categories/dostawca.png"
               alt="dostawca"
             />
             <div class="description">Pracuj jako dostawca</div>
@@ -166,8 +162,8 @@
         <div class="categories-item">
           <a href="">
             <img
-              class="image domek"
-              src="@/assets/categories/motoryzacja.png"
+              class="domek"
+              src="@/assets/categories/domek.png"
               alt="domek-w-gorach"
             />
             <div class="description">Domek w górach</div>
@@ -176,8 +172,8 @@
         <div class="categories-item">
           <a href="">
             <img
-              class="image czesci"
-              src="@/assets/categories/motoryzacja.png"
+              class="telefony"
+              src="@/assets/categories/telefony.png"
               alt="telefony"
             />
             <div class="description">Telefony z przesyłką za 1zł</div>
@@ -200,6 +196,14 @@ a {
   text-decoration: none;
   color: inherit;
   font-weight: bold;
+}
+
+a:hover {
+  .description {
+    background: #002f34;
+    color: white;
+    transition: all 0.3s ease;
+  }
 }
 
 .maincategories {
@@ -225,20 +229,61 @@ a {
 
     .categories-container {
       display: grid;
-      grid-template-rows: repeat(2, auto);
-      grid-template-columns: repeat(9, auto);
-      row-gap: 5vh;
+      grid-template-rows: repeat(auto-fill, minmax(130px, 1fr));
+      grid-template-columns: repeat(auto-fill, minmax(130px, 1fr));
+      row-gap: 4vh;
 
       .categories-item {
-        .image {
-          width: 70px;
+        img {
+          width: 88px;
           height: auto;
           border-radius: 50%;
-          background: yellow;
+          margin-bottom: 2vh;
         }
 
-        .description {
-          text-align: center;
+        .motoryzacja,
+        .dzieci {
+          background-color: rgb(255, 206, 50);
+        }
+
+        .nieruchomosci,
+        .darmo {
+          background-color: rgb(58, 119, 255);
+        }
+
+        .praca,
+        .zamienie {
+          background-color: rgb(35, 229, 219);
+        }
+
+        .dom,
+        .dostawca {
+          background-color: rgb(255, 86, 54);
+        }
+
+        .elektronika,
+        .noclegi,
+        .domek {
+          background-color: rgb(255, 246, 217);
+        }
+
+        .moda,
+        .telefony {
+          background-color: rgb(206, 221, 255);
+        }
+
+        .rolnictwo,
+        .muzyka {
+          background-color: rgb(200, 248, 246);
+        }
+
+        .zwierzeta,
+        .uslugi {
+          background-color: rgb(255, 214, 201);
+        }
+
+        .sport {
+          background-color: rgb(206, 221, 255);
         }
       }
     }
