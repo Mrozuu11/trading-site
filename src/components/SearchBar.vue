@@ -11,6 +11,7 @@
               v-model="query"
               type="search"
               name="search"
+              autocomplete="off"
               placeholder="Wpisz frazę wyszukiwania"
             />
           </div>
@@ -25,6 +26,7 @@
               type="search"
               list="places"
               name="place"
+              autocomplete="off"
               onfocus="this.value=''"
               onchange="this.blur();"
               placeholder="Cała Polska"
@@ -56,9 +58,8 @@ export default {
   data() {
     return {
       query: "",
-      selected: "Cała Polska",
+      selected: "",
       options: [
-        "Cała Polska",
         "Dolnośląskie",
         "Kujawsko-pomorskie",
         "Lubelskie",

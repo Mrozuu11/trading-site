@@ -3,26 +3,21 @@
     <div class="categories-wrapper">
       <h3 class="categories-header">Kategorie Główne</h3>
       <div class="categories-container">
-        <div class="categories-item">
+        <div
+          class="categories-item"
+          v-for="category in categories"
+          :key="category.description"
+        >
           <a href="">
             <img
-              class="motoryzacja"
-              src="@/assets/categories/motoryzacja.png"
-              alt="motoryzacja"
+              :class="category.class"
+              :src="category.src"
+              :alt="category.description"
             />
-            <div class="description">Motoryzacja</div>
+            <div class="description">{{ category.description }}</div>
           </a>
         </div>
-        <div class="categories-item">
-          <a href="">
-            <img
-              class="nieruchomosci"
-              src="@/assets/categories/nieruchomosci.png"
-              alt="nieruchomosci"
-            />
-            <div class="description">Nieruchomości</div>
-          </a>
-        </div>
+
         <div class="categories-item">
           <a href="">
             <img
@@ -188,6 +183,22 @@
 export default {
   name: "Categories",
   props: {},
+  data() {
+    return {
+      categories: [
+        {
+          class: "motoryzacja",
+          src: "https://static.olx.pl/static/olxpl/packed/img/2fd423bcfaa2015e6137bcdb6bea3d6287.png",
+          description: "Motoryzacja",
+        },
+        {
+          class: "nieruchomosci",
+          src: "https://categories.olxcdn.com/assets/categories/olxpl/nieruchomosci-3-2x.png",
+          description: "Nieruchomości",
+        },
+      ],
+    };
+  },
 };
 </script>
 

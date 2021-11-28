@@ -1,8 +1,8 @@
 <template>
-  <body>
+  <div>
     <SearchBar></SearchBar>
     <Categories></Categories>
-  </body>
+  </div>
 </template>
 <script>
 // @ is an alias to /src
