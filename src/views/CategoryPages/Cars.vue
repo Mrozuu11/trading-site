@@ -1,19 +1,18 @@
 <template>
   <div>
     <SearchBar></SearchBar>
-    <Categories></Categories>
+    <CarsPage></CarsPage>
   </div>
 </template>
-<script>
-// @ is an alias to /src
-import SearchBar from "@/components/MainPage/SearchBar.vue";
-import Categories from "@/components/MainPage/Categories.vue";
 
+<script>
+import SearchBar from "@/components/MainPage/SearchBar.vue";
+import CarsPage from "../../components/SubPages/CarsPage.vue";
 export default {
-  name: "Home",
+  name: "Cars",
   components: {
     SearchBar,
-    Categories,
+    CarsPage,
   },
 };
 </script>

@@ -20,7 +20,7 @@
               <span class="link"> </span
             ></a>
 
-            <a href=""
+            <a href="/"
               ><font-awesome-icon :icon="['far', 'user']" size="lg" />
               <span class="link"> Mój OLX </span></a
             >
