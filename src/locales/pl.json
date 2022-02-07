@@ -1,0 +1,363 @@
+{
+  "nav": {
+    "messages": "Wiadomości",
+    "profile": "Mój OLX",
+    "addListing": "Dodaj ogłoszenie"
+  },
+  "searchBar": {
+    "searchText": "Wpisz frazę wyszukiwania...",
+    "location": "Cała Polska",
+    "searchButton": "Szukaj"
+  },
+  "categories": {
+    "header": "Kategorie Główne",
+    "dropdownHeader": "Zobacz wszystkie ogłoszenia w",
+    "motorisation": {
+      "name": "Motoryzacja",
+      "subCategories": {
+        "passengerCars": "Samochody osobowe",
+        "carParts": "Części samochodowe",
+        "othersMoto": "Pozostała Motoryzacja",
+        "carAudio": "Sprzęt Car Audio",
+        "motorbikes": "Motocykle i Skutery",
+        "tiresAndWheels": "Opony i Felgi",
+        "vans": "Samochody dostawcze",
+        "insurance": "Ubezpieczenia OC/AC",
+        "motorbikeParts": "Częsci motocyklowe",
+        "trailers": "Przyczepy i Pojazdy Użytkowe"
+      }
+    },
+    "estate": {
+      "name": "Nieruchomości",
+      "subCategories": {
+        "flats": "Mieszkania",
+        "garagesAndParking": "Garaże i Parkingi",
+        "othersEstate": "Pozostałe Nieruchomości",
+        "houses": "Domy",
+        "garden": "Ogrody",
+        "offices": "Biura i Lokale",
+        "rooms": "Stancje i Pokoje",
+        "warehouses": "Hale i Magazyny",
+        "workersAccommodation": "Kwatery pracownicze",
+        "land": "Działki"
+      }
+    },
+    "jobs": {
+      "name": "Praca",
+      "subCategories": {
+        "administration": "Administracja biurowa",
+        "construction": "Budowa/Remonty",
+        "callCenter": "Call center, konsultant telefoniczny",
+        "eCommerce": "E-commerce (handel internetowy)",
+        "education": "Edukacja",
+        "finance": "Finanse/Księgowość",
+        "franchise": "Franczyza / Własna firma",
+        "hairdressing": "Fryzjerstwo, kosmetyka",
+        "hospitality": "Gastronomia",
+        "hr": "HR",
+        "host": "Hostessa",
+        "hotels": "Hotele"
+      }
+    },
+    "home": {
+      "name": "Dom i Ogród",
+      "subCategories": {
+        "furniture": "Meble",
+        "wellBeing": "Zdrowie",
+        "garden": "Ogród",
+        "tools": "Narzędzia",
+        "buildingMaterials": "Materiały budowlane",
+        "heating": "Ogrzewanie",
+        "interior": "Wyposażenie wnętrz",
+        "othersHome": "Pozostałe Dom i Ogród",
+        "agd": "Sprzęt AGD"
+      }
+    },
+    "electronics": {
+      "name": "Elektronika",
+      "subCategories": {
+        "phoneAccessories": "Akcesoria Telefoniczne",
+        "photography": "Fotografia",
+        "games": "Gry i Konsole",
+        "computers": "Komputery",
+        "smartwatches": "Smartwatche i Opaski",
+        "agd": "Sprzęt AGD",
+        "audio": "Sprzęt audio",
+        "video": "Sprzęt wideo",
+        "mobilePhones": "Telefony",
+        "tv": "TV",
+        "othersElectronics": "Pozostała Elektronika"
+      }
+    },
+    "fashion": {
+      "name": "Moda",
+      "subCategories": {
+        "clothes": "Ubrania",
+        "shoes": "Buty",
+        "underwear": "Bielizna",
+        "maternity": "Odzież ciążowa",
+        "fashionAccessories": "Dodatki",
+        "jewelry": "Biżuteria",
+        "handbags": "Torebki",
+        "watches": "Zegarki",
+        "cosmetics": "Kosmetyki i Perfumy",
+        "othersFashion": "Pozostała Moda",
+        "weddingFashion": "Moda ślubna",
+        "weddingAccessories": "Akcesoria ślubne"
+      }
+    },
+    "agriculture": {
+      "name": "Rolnictwo",
+      "subCategories": {
+        "tractors": "Ciągniki",
+        "agriculturalMachines": "Maszyny rolnicze",
+        "agricultureTrailer": "Przyczepy",
+        "agricultureParts": "Części do maszyn rolniczych",
+        "agricultureTires": "Opony rolnicze",
+        "agricultureProducts": "Produkty rolne",
+        "agricultureAnimals": "Giełda zwierząt",
+        "market": "Ryneczek",
+        "othersAgriculture": "Pozostałe Rolnicze"
+      }
+    },
+    "animals": {
+      "name": "Zwierzęta",
+      "subCategories": {
+        "dogs": "Psy",
+        "cats": "Koty",
+        "birds": "Ptaki",
+        "rodents": "Gryzonie i Króliki",
+        "horses": "Konie",
+        "fishKeeping": "Akwarystyka",
+        "othersAnimals": "Pozostałe Zwierzęta",
+        "animalAccessories": "Akcesoria dla zwierząt",
+        "lostAndFound": "Zaginione i Znalezione"
+      }
+    },
+    "children": {
+      "name": "Dla Dzieci",
+      "subCategories": {
+        "toys": "Zabawki",
+        "buggies": "Wózki dziecięce",
+        "infantAccessories": "Akcesoria dla niemowląt",
+        "seats": "Foteliki - Nosidełka",
+        "childrenClothing": "Ubranka dla dzieci",
+        "childrenShoes": "Buciki",
+        "childrenFurniture": "Meble dla dzieci",
+        "othersChildren": "Pozostałe Dla Dzieci"
+      }
+    },
+    "sport": {
+      "name": "Sport i Hobby",
+      "subCategories": {
+        "ridingAccessories": "Akcesoria jeździeckie",
+        "tickets": "Bilety",
+        "fitness": "Fitness",
+        "boardGames": "Gry planszowe",
+        "collections": "Kolekcje",
+        "militaries": "Militaria",
+        "sportShoes": "Buty sportowe",
+        "sportClothing": "Odzież sportowa",
+        "bikes": "Rowery",
+        "skating": "Skating",
+        "community": "Społeczność",
+        "waterSports": "Sporty wodne",
+        "winterSports": "Sporty zimowe",
+        "tourism": "Turystyka",
+        "fishing": "Wędkarstwo",
+        "otherSports": "Pozostały Sport i Hobby"
+      }
+    },
+    "music": {
+      "name": "Muzyka i Edukacja",
+      "subCategories": {
+        "books": "Książki",
+        "music": "Muzyka",
+        "films": "Filmy",
+        "instruments": "Instrumenty",
+        "languageResources": "Materiały językowe",
+        "othersMusic": "Pozostała Muzyka i Edukacja"
+      }
+    },
+    "services": {
+      "name": "Usługi i Firmy",
+      "subCategories": {
+        "services": "Usługi",
+        "businessEquipment": "Wyposażenie firm",
+        "weddingServices": "Usługi ślubne",
+        "constructionAndMaintenance": "Budowa i Remont",
+        "privateLessons": "Korepetycje",
+        "courses": "Kursy i Warsztaty",
+        "furnishing": "Meble na wymiar",
+        "musicians": "Muzycy",
+        "events": "Obsługa imprez",
+        "rtvAgdRepairs": "Serwis RTV/AGD",
+        "cleaning": "Sprzątanie",
+        "translation": "Tłumaczenia",
+        "animalServices": "Usługi dla zwierząt",
+        "financialServices": "Usługi finansowe",
+        "it": "Usługi informatyczne",
+        "cosmeticServices": "Usługi kosmetyczne",
+        "motoServices": "Usługi motoryzacyjne",
+        "gardenServices": "Usługi ogrodnicze",
+        "advertServices": "Usługi reklamowe",
+        "transportServices": "Usługi transportowe",
+        "healthServices": "Usługi zdrowotne",
+        "otherServices": "Pozostałe Usługi"
+      }
+    },
+    "accomodation": {
+      "name": "Noclegi"
+    },
+    "freebies": {
+      "name": "Za darmo"
+    },
+    "swap": {
+      "name": "Zamienię"
+    },
+    "delivery": {
+      "name": "Pracuj jako dostawca"
+    },
+    "mountainHouse": {
+      "name": "Domek w Górach"
+    },
+    "phones": {
+      "name": "Telefony komórkowe"
+    }
+  },
+  "filtersPanel": {
+    "filtersHeader": "Filtry",
+    "all": "Wszystkie",
+    "brand": "Marka",
+    "model": "Model",
+    "price": "Cena",
+    "year": "Rok Produkcji",
+    "from": "Od",
+    "to": "Do"
+  },
+  "carsPage": {
+    "carsPageHeader": "Znaleźliśmy {n} ogłoszeń |Znaleźliśmy {n} ogłoszenie | Znaleźliśmy {n} ogłoszenia | Znaleźliśmy {n} ogłoszeń",
+    "sortPlaceholder": "Sortuj",
+    "sortingPanel": {
+      "newest": "Najnowsze",
+      "cheapest": "Najtańsze",
+      "mostExpensive": "Najdroższe"
+    },
+    "highlightedAds": "Wyróżnione Ogłoszenia",
+    "regularAds": "Pozostałe Ogłoszenia"
+  },
+  "advertisement": {
+    "1": {
+      "title": "Chevrolet Camaro 2015r., garażowany, przegląd, OC/AC",
+      "description": "Warszawa, 8 gru",
+      "fuel": "Benzyna",
+      "color": "Żółty",
+      "condition": "Idealny"
+    },
+    "2": {
+      "title": "Ford Mustang, rok 2014, pierwszy właściciel",
+      "description": "Żyglin, 29 paź",
+      "fuel": "Benzyna",
+      "color": "Czerwony",
+      "condition": "Idealny"
+    },
+    "3": {
+      "title": "1982 Chevrolet Corvette C3",
+      "description": "Poznań, 28 lis",
+      "fuel": "Benzyna",
+      "color": "Żółty",
+      "condition": "Idealny"
+    },
+    "4": {
+      "title": "Ferrari F430, stan idealny, niski przebieg",
+      "description": "Kraków, 3 gru",
+      "fuel": "Benzyna",
+      "color": "Pomarańczowy",
+      "condition": "Bardzo dobry"
+    },
+    "5": {
+      "title": "Porsche 911 Carrera 933",
+      "description": "Lubin, 27 lis",
+      "fuel": "Benzyna",
+      "color": "Srebrny",
+      "condition": "Odnowiony"
+    },
+    "6": {
+      "title": "Subaru Impreza WRX STI",
+      "description": "Gdańsk, 2 gru",
+      "fuel": "Benzyna",
+      "color": "Niebieski",
+      "condition": "Dobry"
+    },
+    "7": {
+      "title": "McLaren P1, 2016r.",
+      "description": "Warszawa, 29 lis",
+      "fuel": "Benzyna",
+      "color": "Mandarynkowy",
+      "condition": "Nowy"
+    },
+    "8": {
+      "title": "Nissan GT-R R35, Stan idealny, niski przebieg",
+      "description": "Wrocław, 18 lis",
+      "fuel": "Benzyna",
+      "color": "Biały",
+      "condition": "Używany"
+    },
+    "9": {
+      "title": "Audi R8 V10 Type 42, garażowany",
+      "description": "Warszawa, 30 lis",
+      "fuel": "Benzyna",
+      "color": "Czarny",
+      "condition": "Bardzo dobry+"
+    },
+    "10": {
+      "title": "Lamborghini Aventador V12, 2016 rok, sprowadzony z USA",
+      "description": "Gdańsk, 1 gru",
+      "fuel": "Benzyna",
+      "color": "Pomarańczowy",
+      "condition": "Salonowy"
+    },
+    "isHighlighted": "OGŁOSZENIE WYRÓŻNIONE"
+  },
+  "carDetails": {
+    "views": "Wyświetlenia: ",
+    "detailsDescription": "Opis",
+    "textboxPlaceholder": "Napisz wiadomość...",
+    "breadCrumb": {
+      "mainPage": "Strona Główna",
+      "category": "Motoryzacja"
+    },
+    "buttons": {
+      "backBtn": "Wróć",
+      "refreshBtn": "ODŚWIEŻ",
+      "reportBtn": "Zgłoś",
+      "callBtn": "Zadzwoń",
+      "messageBtn": "Wyślij wiadomość",
+      "submitBtn": "Wyślij"
+    },
+    "messages": {
+      "calling": "Dzwonię do: ",
+      "sent": "Wysłano do: "
+    },
+    "userInfo": {
+      "location": "Lokalizacja",
+      "user": "Użytkownik",
+      "moreFromUser": "Więcej od tego ogłoszeniodawcy",
+      "rateUser": "Ten ogłoszeniodawca nie otrzymał jeszcze żadnych ocen. Bądź pierwszym który oceni współpracę!",
+      "lastSeen": "Ostatnio online: ",
+      "registered": "Na OLX od: "
+    },
+    "infoPanels": {
+      "brandInfo": "Marka: ",
+      "modelInfo": "Model: ",
+      "yearInfo": "Rok Produkcji: ",
+      "mileageInfo": "Przebieg: ",
+      "fuelInfo": "Paliwo: ",
+      "colorInfo": "Kolor: ",
+      "conditionInfo": "Stan Techniczny: "
+    }
+  },
+  "favourite": {
+    "header": "Twoje ulubione ogłoszenia"
+  }
+}

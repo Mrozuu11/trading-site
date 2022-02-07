@@ -12,7 +12,7 @@
               type="search"
               name="search"
               autocomplete="off"
-              placeholder="Wpisz frazę wyszukiwania"
+              :placeholder="$t('searchBar.searchText')"
             />
           </div>
         </div>
@@ -29,7 +29,7 @@
               autocomplete="off"
               onfocus="this.value=''"
               onchange="this.blur();"
-              placeholder="Cała Polska"
+              :placeholder="$t('searchBar.location')"
             />
             <datalist id="places">
               <option
@@ -41,7 +41,9 @@
           </form>
         </div>
         <a class="search-btn" href="">
-          <input class="btn" type="submit" value="Szukaj" />
+          <button class="btn" type="submit">
+            {{ $t("searchBar.searchButton") }}
+          </button>
           <div class="search-icon">
             <font-awesome-icon :icon="['fa', 'search']" size="lg" />
           </div>
@@ -84,21 +86,17 @@ export default {
 
 <style lang="scss" scoped>
 .search-main {
-  position: absolute;
-  left: 0;
-  right: 0;
-  margin: 65px auto 0 auto;
-  background: rgb(242, 244, 245);
   padding: 40px;
 
   .search-wrapper {
-    width: 68vw;
-    background: white;
+    width: $width;
     margin: auto;
 
     fieldset {
+      background: $white-background;
       display: flex;
       border: none;
+      border-radius: $smooth-corners;
       padding: 0;
       margin: 0;
       height: 72px;
@@ -111,32 +109,19 @@ export default {
           margin: auto 10px;
         }
 
-        input {
-          border: 0;
-          outline: 0;
-          font-size: 16px;
-          width: 100%;
-        }
-        // input::-webkit-search-cancel-button {
-        //   -webkit-appearance: none;
-        //   height: 20px;
-        //   width: 20px;
-        //   border-radius: 10px;
-        //   background: red;
-        // }
-
-        .search-text {
-          display: flex;
-          width: 100%;
-          border-right: 1px solid rgb(242, 244, 245);
-          border-radius: 2px 0;
-        }
-
+        .search-text,
         .search-location {
           display: flex;
           width: 100%;
-          border-right: 1px solid rgb(242, 244, 245);
-          border-radius: 2px 0;
+          border-right: 1px solid $main-background;
+          border-radius: $smooth-corners;
+
+          input {
+            border: 0;
+            outline: 0;
+            font-size: $font-size-main;
+            width: 100%;
+          }
         }
 
         &-left {
@@ -148,9 +133,9 @@ export default {
       }
 
       a:hover {
-        background: #002f34;
-        color: white;
-        transition: all 0.3s ease;
+        background: $blue-primary;
+        color: $font-secondary;
+        transition: $transition-default;
         .btn {
           color: inherit;
         }
@@ -160,15 +145,10 @@ export default {
         display: flex;
         align-content: center;
         padding: 0 20px;
-        text-decoration: none;
-        color: inherit;
 
         .btn {
-          background: transparent;
           border: 0;
-          font-size: inherit;
           font-weight: bold;
-          cursor: pointer;
         }
 
         .search-icon {
