@@ -1,0 +1,374 @@
+{
+  "nav": {
+    "messages": "Messages",
+    "profile": "My Profile",
+    "addListing": "Add a listing"
+  },
+
+  "searchBar": {
+    "searchText": "Enter the phrase to search...",
+    "location": "Countrywide",
+    "searchButton": "Search"
+  },
+
+  "categories": {
+    "header": "Main Categories",
+    "dropdownHeader": "See all adverts in",
+    "motorisation": {
+      "name": "Motorisation",
+      "subCategories": {
+        "passengerCars": "Passenger cars",
+        "carParts": "Car parts",
+        "othersMoto": "Others in Motorisation",
+        "carAudio": "Car Audio",
+        "motorbikes": "Motorbikes",
+        "tiresAndWheels": "Tires and Wheels",
+        "vans": "Vans",
+        "insurance": "Insurance",
+        "motorbikeParts": "Motorbike parts",
+        "trailers": "Trailers"
+      }
+    },
+    "estate": {
+      "name": "Real Estate",
+      "subCategories": {
+        "flats": "Flats",
+        "garagesAndParking": "Garages and parkings",
+        "othersEstate": "Others in Estate",
+        "houses": "Houses",
+        "garden": "Garden",
+        "offices": "Offices",
+        "rooms": "Rooms for rent",
+        "warehouses": "Warehouses",
+        "workersAccommodation": "Workers' Accomodation",
+        "land": "Land"
+      }
+    },
+    "jobs": {
+      "name": "Jobs",
+      "subCategories": {
+        "administration": "Administration",
+        "construction": "Construction/Maintenance",
+        "callCenter": "Call Center",
+        "eCommerce": "E-commerce",
+        "education": "Education",
+        "finance": "Finance/Book-keeping",
+        "franchise": "Franchise/Own business",
+        "hairdressing": "Hairdressing/Cosmetology",
+        "hospitality": "Hospitality",
+        "hr": "HR",
+        "host": "Host",
+        "hotels": "Hotels"
+      }
+    },
+    "home": {
+      "name": "Home and Garden",
+      "subCategories": {
+        "furniture": "Furniture",
+        "wellBeing": "Well-being",
+        "garden": "Garden",
+        "tools": "Tools",
+        "buildingMaterials": "Building materials",
+        "heating": "Heating solutions",
+        "interior": "Interior fittings",
+        "othersHome": "Others in Home and Garden",
+        "agd": "AGD equipment"
+      }
+    },
+    "electronics": {
+      "name": "Electronics",
+      "subCategories": {
+        "phoneAccessories": "Phone Accessories",
+        "photography": "Photography",
+        "games": "Games and Consoles",
+        "computers": "Computers",
+        "smartwatches": "Smartwatches and Bands",
+        "agd": "AGD equipment",
+        "audio": "Audio equipment",
+        "video": "Video equipment",
+        "mobilePhones": "Mobile phones",
+        "tv": "TVs",
+        "othersElectronics": "Others in Electronics"
+      }
+    },
+    "fashion": {
+      "name": "Fashion",
+      "subCategories": {
+        "clothes": "Clothes",
+        "shoes": "Shoes",
+        "underwear": "Underwear",
+        "maternity": "Maternity clothing",
+        "fashionAccessories": "Fashion accessories",
+        "jewelry": "Jewelry",
+        "handbags": "Handbags",
+        "watches": "Watches",
+        "cosmetics": "Cosmetics and Fragrances",
+        "othersFashion": "Others in Fashion",
+        "weddingFashion": "Wedding fashion",
+        "weddingAccessories": "Wedding accessories"
+      }
+    },
+    "agriculture": {
+      "name": "Agriculture",
+      "subCategories": {
+        "tractors": "Tractors",
+        "agriculturalMachines": "Agricultural machines",
+        "agricultureTrailer": "Trailers",
+        "agricultureParts": "Parts for agricultural machines",
+        "agricultureTires": "Agricultural tires",
+        "agricultureProducts": "Agricultural products",
+        "agricultureAnimals": "Animals",
+        "market": "Market",
+        "othersAgriculture": "Others in Agriculture"
+      }
+    },
+    "animals": {
+      "name": "Animals",
+      "subCategories": {
+        "dogs": "Dogs",
+        "cats": "Cats",
+        "birds": "Birds",
+        "rodents": "Rodents and Rabbits",
+        "horses": "Horses",
+        "fishKeeping": "Fish keeping",
+        "othersAnimals": "Other Animals",
+        "animalAccessories": "Animal accessories",
+        "lostAndFound": "Lost and Found"
+      }
+    },
+    "children": {
+      "name": "Children articles",
+      "subCategories": {
+        "toys": "Toys",
+        "buggies": "Buggies",
+        "infantAccessories": "Accessories for infants",
+        "seats": "Child seats",
+        "childrenClothing": "Children clothing",
+        "childrenShoes": "Children shoes",
+        "childrenFurniture": "Children furniture",
+        "othersChildren": "Others for Children"
+      }
+    },
+    "sport": {
+      "name": "Sport and Hobby",
+      "subCategories": {
+        "ridingAccessories": "Riding accessories",
+        "tickets": "Tickets",
+        "fitness": "Fitness",
+        "boardGames": "Board games",
+        "collections": "Collections",
+        "militaries": "Militaries",
+        "sportShoes": "Sport shoes",
+        "sportClothing": "Sport clothing",
+        "bikes": "Bikes",
+        "skating": "Skating",
+        "community": "Community",
+        "waterSports": "Water sports",
+        "winterSports": "Winter sports",
+        "tourism": "Tourism",
+        "fishing": "Fishing",
+        "otherSports": "Other Sports"
+      }
+    },
+    "music": {
+      "name": "Music and Education",
+      "subCategories": {
+        "books": "Books",
+        "music": "Music",
+        "films": "Films",
+        "instruments": "Instruments",
+        "languageResources": "Language resources",
+        "othersMusic": "Others in Music and Education"
+      }
+    },
+    "services": {
+      "name": "Services and Business",
+      "subCategories": {
+        "services": "Services",
+        "businessEquipment": "Business equipment",
+        "weddingServices": "Wedding services",
+        "constructionAndMaintenance": "Construction and Maintenance",
+        "privateLessons": "Private lessons",
+        "courses": "Courses and Workshops",
+        "furnishing": "Custom-made furnishings",
+        "musicians": "Musicians",
+        "events": "Events services",
+        "rtvAgdRepairs": "RTV/AGD repairs",
+        "cleaning": "Cleaning",
+        "translation": "Translation",
+        "animalServices": "Animal services",
+        "financialServices": "Financial services",
+        "it": "IT services",
+        "cosmeticServices": "Cosmetic services",
+        "motoServices": "Motorisation services",
+        "gardenServices": "Gardening services",
+        "advertServices": "Advertising services",
+        "transportServices": "Transport services",
+        "healthServices": "Health services",
+        "otherServices": "Other Services"
+      }
+    },
+    "accomodation": {
+      "name": "Accomodation"
+    },
+    "freebies": {
+      "name": "Freebies"
+    },
+    "swap": {
+      "name": "Swap items"
+    },
+    "delivery": {
+      "name": "Work as a courier"
+    },
+    "mountainHouse": {
+      "name": "Mountain Houses"
+    },
+    "phones": {
+      "name": "Mobile phones"
+    }
+  },
+
+  "filtersPanel": {
+    "filtersHeader": "Filters",
+    "all": "All",
+    "brand": "Brand",
+    "model": "Model",
+    "price": "Price",
+    "year": "Manufacture Year",
+    "from": "From",
+    "to": "To"
+  },
+
+  "carsPage": {
+    "carsPageHeader": "We found {n} advertisement | We found {n} advertisements",
+    "sortPlaceholder": "Sort",
+    "sortingPanel": {
+      "newest": "Newest",
+      "cheapest": "Cheapest",
+      "mostExpensive": "Most Expensive"
+    },
+    "highlightedAds": "Highlighted Advertisements",
+    "regularAds": "Other Advertisements"
+  },
+
+  "advertisement": {
+    "isHighlighted": "HIGHLIGHTED ADVERTISEMENT",
+    "1": {
+      "title": "Chevrolet Camaro 2015, MOT, Insurance, Stored in a Garage",
+      "description": "Warsaw, 8th Dec",
+      "fuel": "Gas",
+      "color": "Yellow",
+      "condition": "Mint"
+    },
+    "2": {
+      "title": "Ford Mustang 2014, first owner",
+      "description": "Zyglin, 29th Oct",
+      "fuel": "Gas",
+      "color": "Red",
+      "condition": "Mint"
+    },
+    "3": {
+      "title": "1982 Chevrolet Corvette C3",
+      "description": "Poznan, 28th Nov",
+      "fuel": "Gas",
+      "color": "Yellow",
+      "condition": "Mint"
+    },
+    "4": {
+      "title": "Ferrari F430, perfect condition, low mileage",
+      "description": "Krakow, 3rd Dec",
+      "fuel": "Gas",
+      "color": "Orange",
+      "condition": "Very good"
+    },
+    "5": {
+      "title": "Porsche 911 Carrera 933",
+      "description": "Lubin, 27th Nov",
+      "fuel": "Gas",
+      "color": "Silver",
+      "condition": "Refurbished"
+    },
+    "6": {
+      "title": "Subaru Impreza WRX STI",
+      "description": "Gdansk, 2nd Dec",
+      "fuel": "Gas",
+      "color": "Blue",
+      "condition": "Good"
+    },
+    "7": {
+      "title": "McLaren P1 2016",
+      "description": "Warsaw, 29th Nov",
+      "fuel": "Gas",
+      "color": "Clementine",
+      "condition": "Brand New"
+    },
+    "8": {
+      "title": "Nissan GT-r R35, Perfect condition, low mileage",
+      "description": "Wroclaw, 18th Nov",
+      "fuel": "Gas",
+      "color": "White",
+      "condition": "Used"
+    },
+    "9": {
+      "title": "Audi R8 V10 Type 42, kept in a garage",
+      "description": "Warsaw, 30th Nov",
+      "fuel": "Gas",
+      "color": "Black",
+      "condition": "B+"
+    },
+    "10": {
+      "title": "Lamborghini Aventador V12, 2016, imported from the US",
+      "description": "Gdansk, 1st Dec",
+      "fuel": "Gas",
+      "color": "Orange",
+      "condition": "Brand New"
+    }
+  },
+
+  "carDetails": {
+    "views": "Views: ",
+    "detailsDescription": "Description",
+    "textboxPlaceholder": "Write your message...",
+
+    "breadCrumb": {
+      "mainPage": "Main Page",
+      "category": "Motorisation"
+    },
+
+    "buttons": {
+      "backBtn": "Back",
+      "refreshBtn": "REFRESH",
+      "reportBtn": "Report",
+      "callBtn": "Call Me",
+      "messageBtn": "Send a message",
+      "submitBtn": "Send"
+    },
+
+    "messages": {
+      "calling": "I'm calling: ",
+      "sent": "Sent to: "
+    },
+
+    "userInfo": {
+      "location": "Location",
+      "user": "User",
+      "moreFromUser": "More from this user",
+      "rateUser": "This user has no reviews yet. Be the first user to add one!",
+      "lastSeen": "Last seen: ",
+      "registered": "Joined on: "
+    },
+
+    "infoPanels": {
+      "brandInfo": "Brand: ",
+      "modelInfo": "Model: ",
+      "yearInfo": "Manufacture Year: ",
+      "mileageInfo": "Mileage: ",
+      "fuelInfo": "Fuel: ",
+      "colorInfo": "Color: ",
+      "conditionInfo": "Condition: "
+    }
+  },
+  "favourite": {
+    "header": "Your favourite advertisements"
+  }
+}

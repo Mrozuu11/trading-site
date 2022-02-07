@@ -1,7 +1,7 @@
 <template>
   <div>
-    <SearchBar></SearchBar>
-    <Categories></Categories>
+    <SearchBar />
+    <Categories />
   </div>
 </template>
 <script>

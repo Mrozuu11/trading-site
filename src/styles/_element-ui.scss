@@ -1,0 +1,44 @@
+.el-select-dropdown__item {
+  background: $white-background;
+  font-family: $font-type;
+}
+
+.el-select-dropdown__item:hover {
+  color: $font-secondary;
+  background: $blue-primary;
+  transition: $transition-default;
+}
+
+.el-input__inner {
+  font-family: $font-type;
+  color: $blue-primary;
+}
+
+// CarDetails component
+.el-breadcrumb__inner {
+  color: $blue-primary;
+  text-decoration: underline;
+}
+
+.el-button--primary {
+  border: none;
+  background: transparent;
+  color: $blue-primary;
+  font-weight: bold;
+  font-size: $font-size-main;
+
+  .el-icon-arrow-left {
+    font-weight: 900;
+  }
+}
+
+.el-textarea {
+  .el-textarea__inner {
+    background-color: $main-background;
+    border-radius: $smooth-corners;
+  }
+  .el-textarea__inner::placeholder {
+    color: $blue-primary;
+    font-family: $font-type;
+  }
+}

@@ -2,31 +2,33 @@
   <div>
     <div class="header">
       <div class="header-content">
-        <div>
-          <a href="">
+        <div class="logo-container">
+          <a href="/">
             <img class="logo" src="@/assets/OLX-logo.jpg" />
           </a>
+          <LocaleSwitcher />
         </div>
 
         <div class="links-wrapper">
           <div class="links-list">
             <a href="">
               <font-awesome-icon :icon="['far', 'comment']" size="lg" />
-              <span class="link"> Wiadomości </span>
+              <span class="link"> {{ $t("nav.messages") }} </span>
             </a>
 
-            <a href=""
+            <router-link to="/favourites"
               ><font-awesome-icon :icon="['far', 'heart']" size="lg" />
-              <span class="link"> </span
-            ></a>
+            </router-link>
 
             <a href="/"
               ><font-awesome-icon :icon="['far', 'user']" size="lg" />
-              <span class="link"> Mój OLX </span></a
+              <span class="link"> {{ $t("nav.profile") }} </span></a
             >
           </div>
 
-          <div class="add-advertisement"><a href="">Dodaj Ogłoszenie</a></div>
+          <div class="add-advertisement">
+            <a href="">{{ $t("nav.addListing") }}</a>
+          </div>
         </div>
       </div>
     </div>
@@ -34,24 +36,20 @@
 </template>
 
 <script>
+import LocaleSwitcher from "@/components/shared/LocaleSwitcher/index.vue";
 export default {
   name: "Header",
   props: {},
+  components: { LocaleSwitcher },
 };
 </script>
 
 <style lang="scss" scoped>
-a {
-  text-decoration: none;
-  color: inherit;
-}
-
 .header {
-  background: #002f34;
+  background: $blue-primary;
   padding: 13px 0px;
-  font-size: 16px;
   font-weight: bold;
-  position: fixed;
+  position: sticky;
   top: 0;
   right: 0;
   left: 0;
@@ -59,23 +57,23 @@ a {
   justify-content: center;
 
   .header-content {
-    width: 68vw;
-    padding: 0 24px 0 24px;
+    width: $width;
     display: flex;
     justify-content: space-between;
-    align-items: center;
     flex-wrap: wrap;
 
-    .logo {
-      padding: 0 10px 0 10px;
-      width: 71px;
-      height: auto;
+    .logo-container {
+      display: flex;
+      align-items: center;
+
+      .logo {
+        padding-right: 10px;
+        width: 71px;
+      }
     }
 
     .links-wrapper {
       display: flex;
-      align-content: center;
-      color: white;
       gap: 30px;
       flex-wrap: wrap;
 
@@ -83,12 +81,12 @@ a {
         margin: auto;
 
         a {
-          color: white;
+          color: $font-secondary;
           padding: 0 15px;
         }
 
-        a:hover {
-          color: #7f9799;
+        :hover {
+          color: $fav-hover;
         }
 
         .link {
@@ -97,18 +95,17 @@ a {
       }
 
       .add-advertisement {
-        background: white;
-        color: #002f34;
+        background: $white-background;
         padding: 14px 5px;
-        border-radius: 4px;
+        border-radius: $smooth-corners;
 
         a {
-          padding: 10px 10px;
+          padding: 10px;
         }
         a:hover {
-          color: white;
-          background: #002f34;
-          transition: all 0.3s ease;
+          color: $font-secondary;
+          background: $blue-primary;
+          transition: $transition-default;
         }
       }
     }
