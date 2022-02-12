@@ -69,14 +69,14 @@ export default {
     flex-wrap: wrap;
 
     .text-wrapper {
-      font-size: $font-big;
+      font-size: $size-20px;
       .last-seen {
-        font-size: $font-mid;
+        font-size: $size-14px;
         color: $fav-hover;
       }
       .link {
         margin-top: 1em;
-        font-size: $font-mid;
+        font-size: $size-14px;
       }
     }
 
@@ -112,7 +112,7 @@ export default {
           color: $blue-primary;
         }
         &-msg {
-          color: $font-secondary;
+          color: $white-secondary;
           background: $blue-primary;
           border: none;
         }

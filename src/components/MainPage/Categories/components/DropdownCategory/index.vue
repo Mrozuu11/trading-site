@@ -47,7 +47,7 @@ export default {
 
 <style lang="scss" scoped>
 .link:hover {
-  color: $font-secondary;
+  color: $white-secondary;
   background: $blue-primary;
 }
 
@@ -56,7 +56,7 @@ export default {
   left: 0;
   right: 0;
   background: $white-background;
-  width: $width;
+  width: $content-width;
   font-size: 15px;
   border: solid 1px #efefef;
   margin-top: 2em;

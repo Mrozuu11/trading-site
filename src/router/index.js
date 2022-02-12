@@ -2,8 +2,8 @@ import Vue from "vue";
 import VueRouter from "vue-router";
 import Home from "@/views/Home.vue";
 import Favourites from "@/views/Favourites.vue";
-import Cars from "@/views/CategoryPages/Cars.vue";
-import CarDetails from "@/components/SubPages/CarsPage/CarDetails/index.vue";
+import Cars from "@/views/CategoryPages/Cars/index.vue";
+import AdvertDetails from "@/components/shared/AdvertDetails/index.vue";
 
 Vue.use(VueRouter);
 
@@ -29,7 +29,7 @@ const routes = [
   {
     path: "/cars/:adId",
     name: "CarDetails",
-    component: CarDetails,
+    component: AdvertDetails,
   },
 ];
 

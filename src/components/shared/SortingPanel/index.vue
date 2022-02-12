@@ -1,7 +1,7 @@
 <template>
   <el-select v-model="sortBy" :placeholder="$t('carsPage.sortPlaceholder')">
     <el-option
-      v-for="mode in sortModes"
+      v-for="mode in getSortModes"
       :key="mode.id"
       :value="mode.id"
       :label="$t(`carsPage.sortingPanel.${mode.name}`)"
@@ -14,24 +14,15 @@
 import { mapGetters, mapActions } from "vuex";
 export default {
   name: "SortingPanel",
-  data() {
-    return {
-      sortModes: [
-        { name: "newest", id: 1 },
-        { name: "cheapest", id: 2 },
-        { name: "mostExpensive", id: 3 },
-      ],
-    };
-  },
   methods: {
-    ...mapActions("advertisements", ["updateSort"]),
+    ...mapActions("filters", ["updateSort"]),
   },
   computed: {
-    ...mapGetters("advertisements", ["sortValue"]),
+    ...mapGetters("filters", ["getSortValue", "getSortModes"]),
 
     sortBy: {
       get() {
-        return this.sortValue;
+        return this.getSortValue;
       },
       set(value) {
         this.updateSort(value);

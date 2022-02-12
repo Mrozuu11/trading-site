@@ -4,17 +4,17 @@
 
     <div class="fav-wrapper">
       <!-- Ad component displaying favourite ads -->
-      <Ad v-for="ad in getFavAds" :key="ad.id" :ad="ad"> </Ad>
+      <AdvertBox v-for="ad in getFavAds" :key="ad.id" :ad="ad" />
     </div>
   </div>
 </template>
 <script>
-import Ad from "@/components/shared/Ad/index.vue";
+import AdvertBox from "@/components/shared/AdvertBox/index.vue";
 
 import { mapGetters } from "vuex";
 export default {
   name: "Favourites",
-  components: { Ad },
+  components: { AdvertBox },
 
   computed: {
     ...mapGetters("advertisements", ["getFavAds"]),
@@ -25,14 +25,14 @@ export default {
 <style lang="scss" scoped>
 .fav-container {
   h3 {
-    font-size: $header-size;
+    font-size: $size-32px;
     font-weight: bold;
     margin: 0;
     padding: 36px;
   }
 
   .fav-wrapper {
-    width: $width;
+    width: $content-width;
     margin: auto;
     padding: 2vh;
   }

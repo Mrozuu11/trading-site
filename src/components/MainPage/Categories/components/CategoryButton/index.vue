@@ -25,7 +25,7 @@ export default {
 .cat-link:hover {
   .description {
     background: $blue-primary;
-    color: $font-secondary;
+    color: $white-secondary;
     transition: $transition-default;
   }
 }

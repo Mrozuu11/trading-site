@@ -57,7 +57,7 @@ export default {
   justify-content: center;
 
   .header-content {
-    width: $width;
+    width: $content-width;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
@@ -81,7 +81,7 @@ export default {
         margin: auto;
 
         a {
-          color: $font-secondary;
+          color: $white-secondary;
           padding: 0 15px;
         }
 
@@ -97,13 +97,13 @@ export default {
       .add-advertisement {
         background: $white-background;
         padding: 14px 5px;
-        border-radius: $smooth-corners;
+        border-radius: $size-4px;
 
         a {
           padding: 10px;
         }
         a:hover {
-          color: $font-secondary;
+          color: $white-secondary;
           background: $blue-primary;
           transition: $transition-default;
         }

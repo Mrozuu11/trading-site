@@ -1,5 +1,10 @@
-import advertisements from "./advertisements";
 const state = {
+  sortValue: 1,
+  sortModes: [
+    { name: "newest", id: 1 },
+    { name: "cheapest", id: 2 },
+    { name: "mostExpensive", id: 3 },
+  ],
   brands: [
     {
       name: "Chevrolet",
@@ -89,6 +94,12 @@ const state = {
 };
 
 const getters = {
+  getSortValue: (state) => {
+    return state.sortValue;
+  },
+  getSortModes: (state) => {
+    return state.sortModes;
+  },
   getCarBrands: (state) => {
     return state.brands;
   },
@@ -97,27 +108,12 @@ const getters = {
   getCarFilters: (state) => {
     return state.carFilters;
   },
-
-  getFilteredAds: (state) => {
-    return advertisements.state.ads.filter((ad) => {
-      return (
-        (!state.carFilters.brand?.id ||
-          state.carFilters.brand.id === ad.brand.id) &&
-        (!state.carFilters.model?.id ||
-          state.carFilters.model.id === ad.model.id) &&
-        (!state.carFilters.price?.from ||
-          state.carFilters.price.from <= ad.price) &&
-        (!state.carFilters.price?.to ||
-          state.carFilters.price.to >= ad.price) &&
-        (!state.carFilters.year?.from ||
-          state.carFilters.year.from <= ad.year) &&
-        (!state.carFilters.year?.to || state.carFilters.year.to >= ad.year)
-      );
-    });
-  },
 };
 
 const mutations = {
+  UPDATE_SORT_VALUE(state, newSortValue) {
+    state.sortValue = newSortValue;
+  },
   // Cars filters
   UPDATE_CAR_FILTERS(state, newCarFilters) {
     state.carFilters = { ...newCarFilters };
@@ -125,6 +121,9 @@ const mutations = {
 };
 
 const actions = {
+  updateSort({ commit }, sortValue) {
+    commit("UPDATE_SORT_VALUE", sortValue);
+  },
   // Cars filters
   updateCarFilters({ commit }, carFilters) {
     commit("UPDATE_CAR_FILTERS", carFilters);

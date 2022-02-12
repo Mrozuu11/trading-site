@@ -36,7 +36,7 @@
 </template>
 
 <script>
-import InputArea from "@/components/shared/InputArea/index.vue";
+import InputArea from "@/components/shared/AdvertDetails/components/ContactForm/components/InputArea/index.vue";
 export default {
   name: "ContactForm",
   props: {
@@ -82,9 +82,9 @@ export default {
           }
         }
         .text-wrapper {
-          font-size: $font-big;
+          font-size: $size-20px;
           .last-seen {
-            font-size: $font-mid;
+            font-size: $size-14px;
             color: $fav-hover;
           }
         }

@@ -77,7 +77,7 @@
   </div>
 </template>
 <script>
-import InputFilter from "@/components/shared/FiltersPanel/InputFilter/index.vue";
+import InputFilter from "@/components/shared/FiltersPanel/components/InputFilter/index.vue";
 import { mapGetters, mapActions } from "vuex";
 export default {
   name: "FiltersPanel",
@@ -150,7 +150,7 @@ export default {
 
   .panel {
     margin: auto;
-    width: $width;
+    width: $content-width;
     text-align: left;
 
     .panel-header {

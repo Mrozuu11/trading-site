@@ -1,14 +1,16 @@
 $transition-default: all 0.3s ease;
-$width: 68vw;
+$content-width: 68vw;
+
+//size variables
+$size-4px: 4px;
+$size-12px: 12px;
+$size-14px: 14px;
+$size-16px: 16px;
+$size-20px: 20px;
+$size-32px: 32px;
 
 //font variables
-$font-size-main: 16px;
-$font-small: 12px;
-$font-mid: 14px;
-$font-big: 20px;
 $font-type: Avenir, Helvetica, Arial, sans-serif;
-$header-size: 32px;
 
 //border variables
-$smooth-corners: 4px;
 $border-round: 50%;

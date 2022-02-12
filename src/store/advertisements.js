@@ -1,5 +1,4 @@
 const state = {
-  sortBy: 1,
   favAds: [],
   ads: [
     {
@@ -306,21 +305,50 @@ const state = {
 };
 
 const getters = {
-  sortValue: (state) => {
-    return state.sortBy;
-  },
   getAds: (state) => {
     return state.ads;
   },
   getFavAds: (state) => {
     return state.favAds;
   },
+  getFilteredAds: (state, getters, rootState) => {
+    return state.ads.filter((ad) => {
+      return (
+        (!rootState.filters.carFilters.brand?.id ||
+          rootState.filters.carFilters.brand.id === ad.brand.id) &&
+        (!rootState.filters.carFilters.model?.id ||
+          rootState.filters.carFilters.model.id === ad.model.id) &&
+        (!rootState.filters.carFilters.price?.from ||
+          rootState.filters.carFilters.price.from <= ad.price) &&
+        (!rootState.filters.carFilters.price?.to ||
+          rootState.filters.carFilters.price.to >= ad.price) &&
+        (!rootState.filters.carFilters.year?.from ||
+          rootState.filters.carFilters.year.from <= ad.year) &&
+        (!rootState.filters.carFilters.year?.to ||
+          rootState.filters.carFilters.year.to >= ad.year)
+      );
+    });
+  },
+  getSortedAds: (state, getters, rootState) => {
+    return [...getters.getFilteredAds].sort((a, b) => {
+      if (rootState.filters.sortValue === 1) {
+        return Date.parse(b.date) - Date.parse(a.date);
+      }
+      if (rootState.filters.sortValue === 3) {
+        return b.price - a.price;
+      }
+      return a.price - b.price;
+    });
+  },
+  getHighlightedAds: (state, getters) => {
+    return getters.getSortedAds.filter((ad) => ad.highlighted);
+  },
+  getRegularAds(state, getters) {
+    return getters.getSortedAds.filter((ad) => !ad.highlighted);
+  },
 };
 
 const mutations = {
-  UPDATE_SORT_VALUE(state, newSortValue) {
-    state.sortBy = newSortValue;
-  },
   // Add & Remove from Favourite Ads
   ADD_AD_TO_FAVOURITE(state, ad) {
     state.favAds = [...state.favAds, { ...ad }];
@@ -331,9 +359,6 @@ const mutations = {
 };
 
 const actions = {
-  updateSort({ commit }, sortValue) {
-    commit("UPDATE_SORT_VALUE", sortValue);
-  },
   // Add & Remove from Favourite Ads
   handleClickAddToFavourite({ commit, getters }, ad) {
     getters.getFavAds.some((favAd) => favAd.id === ad.id)

@@ -34,8 +34,8 @@
 </template>
 
 <script>
-import CategoryButton from "@/components/MainPage/CategoryButton/index.vue";
-import DropdownCategory from "@/components/MainPage/DropdownCategory/index.vue";
+import CategoryButton from "@/components/MainPage/Categories/components/CategoryButton/index.vue";
+import DropdownCategory from "@/components/MainPage/Categories/components/DropdownCategory/index.vue";
 import { mapGetters, mapActions } from "vuex";
 export default {
   name: "Categories",
@@ -94,12 +94,12 @@ export default {
   padding-bottom: 61px;
 
   .categories-wrapper {
-    width: $width;
+    width: $content-width;
     padding: 0 24px;
     margin: auto;
 
     .categories-header {
-      font-size: $header-size;
+      font-size: $size-32px;
       margin: 0;
       margin-bottom: 56px;
     }

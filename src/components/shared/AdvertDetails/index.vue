@@ -153,16 +153,16 @@
 </template>
 <script>
 import SearchBar from "@/components/MainPage/SearchBar.vue";
-import BreadCrumb from "@/components/shared/BreadCrumb/index.vue";
+import BreadCrumb from "@/components/shared/AdvertDetails/components/BreadCrumb/index.vue";
 import FavouriteButton from "@/components/shared/FavouriteButton/index.vue";
-import ReloadButton from "@/components/shared/ReloadButton/index.vue";
-import AdvertBottomBar from "@/components/shared/AdvertBottomBar/index.vue";
-import ContactForm from "@/components/shared/ContactForm/index.vue";
-import UserCard from "@/components/shared/UserCard/index.vue";
-import LocationCard from "@/components/shared/LocationCard/index.vue";
+import ReloadButton from "@/components/shared/AdvertDetails/components/ReloadButton/index.vue";
+import AdvertBottomBar from "@/components/shared/AdvertDetails/components/AdvertBottomBar/index.vue";
+import ContactForm from "@/components/shared/AdvertDetails/components/ContactForm/index.vue";
+import UserCard from "@/components/shared/AdvertDetails/components/UserCard/index.vue";
+import LocationCard from "@/components/shared/AdvertDetails/components/LocationCard/index.vue";
 import { mapGetters, mapActions } from "vuex";
 export default {
-  name: "CarDetails",
+  name: "AdvertDetails",
   props: {},
   components: {
     SearchBar,
@@ -214,7 +214,7 @@ export default {
   background: $main-background;
   .page-container {
     text-align: left;
-    width: $width;
+    width: $content-width;
     margin: 2em auto;
 
     .page-path {
@@ -228,10 +228,10 @@ export default {
       .page {
         .background {
           background: $white-background;
-          border-radius: $smooth-corners;
+          border-radius: $size-4px;
         }
         &-left {
-          width: $width;
+          width: $content-width;
 
           .gallery-window {
             padding: 2em;
@@ -255,7 +255,7 @@ export default {
               justify-content: space-between;
               .date-text {
                 color: $date-color;
-                font-size: $font-small;
+                font-size: $size-12px;
               }
 
               .fav-button-container {
@@ -263,13 +263,13 @@ export default {
                   color: $fav-hover;
                 }
                 .added {
-                  color: $fav-added;
+                  color: $tomato-added;
                 }
               }
             }
             .title-container {
               .title-text {
-                font-size: $header-size;
+                font-size: $size-32px;
                 font-weight: 500;
               }
             }

@@ -36,7 +36,7 @@
 import { mapGetters, mapActions } from "vuex";
 import FavouriteButton from "@/components/shared/FavouriteButton/index.vue";
 export default {
-  name: "Ad",
+  name: "AdvertBox",
   components: { FavouriteButton },
   props: ["ad"],
 
@@ -54,7 +54,7 @@ export default {
 </script>
 <style lang="scss" scoped>
 a:hover {
-  color: $font-secondary;
+  color: $white-secondary;
   transition: $transition-default;
 
   .link {
@@ -80,7 +80,7 @@ a:hover {
       bottom: 0;
       left: 0;
       padding: 4px 10px;
-      font-size: $font-small;
+      font-size: $size-12px;
       letter-spacing: 0.8px;
       border-radius: 0 2px 0 0;
       background: $turquoise-cat;
@@ -107,7 +107,7 @@ a:hover {
     }
     .title {
       text-align: left;
-      font-size: $font-big;
+      font-size: $size-20px;
     }
     .price {
       justify-content: flex-end;
@@ -116,7 +116,7 @@ a:hover {
     .description {
       justify-content: flex-start;
       align-items: flex-end;
-      font-size: $font-small;
+      font-size: $size-12px;
       color: $date-color;
     }
 
@@ -125,7 +125,7 @@ a:hover {
       align-items: flex-end;
 
       .added {
-        color: $fav-added;
+        color: $tomato-added;
       }
     }
   }

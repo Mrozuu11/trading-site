@@ -22,7 +22,7 @@ export default {
     border: none;
     display: flex;
     align-items: center;
-    font-size: $font-small;
+    font-size: $size-12px;
     font-weight: bold;
     gap: 10px;
     .rf-icon {

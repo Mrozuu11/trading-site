@@ -3,7 +3,7 @@
     <div class="car-wrapper">
       <div class="top-bar">
         <h2 class="top-head">
-          {{ $tc("carsPage.carsPageHeader", sortedAds.length) }}
+          {{ $tc("carsPage.carsPageHeader", getSortedAds.length) }}
         </h2>
         <SortingPanel />
       </div>
@@ -12,19 +12,19 @@
       <div class="ad-container">
         <!-- Highlighted Ads -->
         <div class="container-head">
-          <h2 v-if="highlightedAds.length !== 0">
+          <h2 v-if="getHighlightedAds.length !== 0">
             {{ $t("carsPage.highlightedAds") }}
           </h2>
         </div>
-        <Ad v-for="ad in highlightedAds" :key="ad.id" :ad="ad" />
+        <AdvertBox v-for="ad in getHighlightedAds" :key="ad.id" :ad="ad" />
 
         <!-- Regular Ads -->
         <div class="container-head regular">
-          <h2 v-if="regularAds.length !== 0">
+          <h2 v-if="getRegularAds.length !== 0">
             {{ $t("carsPage.regularAds") }}
           </h2>
         </div>
-        <Ad v-for="ad in regularAds" :key="ad.id" :ad="ad" />
+        <AdvertBox v-for="ad in getRegularAds" :key="ad.id" :ad="ad" />
       </div>
     </div>
   </div>
@@ -32,32 +32,20 @@
 
 <script>
 import SortingPanel from "@/components/shared/SortingPanel/index.vue";
-import Ad from "@/components/shared/Ad/index.vue";
+import AdvertBox from "@/components/shared/AdvertBox/index.vue";
 import { mapGetters } from "vuex";
 export default {
   name: "CarsPage",
-  components: { Ad, SortingPanel },
+  components: { AdvertBox, SortingPanel },
   computed: {
-    ...mapGetters("advertisements", ["sortValue", "getAds"]),
-    ...mapGetters("filters", ["getFilteredAds"]),
-
-    highlightedAds() {
-      return this.sortedAds.filter((ad) => ad.highlighted);
-    },
-    regularAds() {
-      return this.sortedAds.filter((ad) => !ad.highlighted);
-    },
-    sortedAds() {
-      return [...this.getFilteredAds].sort((a, b) => {
-        if (this.sortValue === 1) {
-          return Date.parse(b.date) - Date.parse(a.date);
-        }
-        if (this.sortValue === 3) {
-          return b.price - a.price;
-        }
-        return a.price - b.price;
-      });
-    },
+    ...mapGetters("advertisements", [
+      "getAds",
+      "getFilteredAds",
+      "getSortedAds",
+      "getHighlightedAds",
+      "getRegularAds",
+    ]),
+    ...mapGetters("filters", ["getSortValue"]),
   },
 };
 </script>
@@ -67,7 +55,7 @@ export default {
   background: $main-background;
 
   .car-wrapper {
-    width: $width;
+    width: $content-width;
     margin: auto;
 
     .top-bar {

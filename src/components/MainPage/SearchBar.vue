@@ -89,14 +89,14 @@ export default {
   padding: 40px;
 
   .search-wrapper {
-    width: $width;
+    width: $content-width;
     margin: auto;
 
     fieldset {
       background: $white-background;
       display: flex;
       border: none;
-      border-radius: $smooth-corners;
+      border-radius: $size-4px;
       padding: 0;
       margin: 0;
       height: 72px;
@@ -114,12 +114,12 @@ export default {
           display: flex;
           width: 100%;
           border-right: 1px solid $main-background;
-          border-radius: $smooth-corners;
+          border-radius: $size-4px;
 
           input {
             border: 0;
             outline: 0;
-            font-size: $font-size-main;
+            font-size: $size-16px;
             width: 100%;
           }
         }
@@ -134,7 +134,7 @@ export default {
 
       a:hover {
         background: $blue-primary;
-        color: $font-secondary;
+        color: $white-secondary;
         transition: $transition-default;
         .btn {
           color: inherit;

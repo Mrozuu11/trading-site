@@ -4,7 +4,7 @@
 }
 
 .el-select-dropdown__item:hover {
-  color: $font-secondary;
+  color: $white-secondary;
   background: $blue-primary;
   transition: $transition-default;
 }
@@ -25,7 +25,7 @@
   background: transparent;
   color: $blue-primary;
   font-weight: bold;
-  font-size: $font-size-main;
+  font-size: $size-16px;
 
   .el-icon-arrow-left {
     font-weight: 900;
@@ -35,7 +35,7 @@
 .el-textarea {
   .el-textarea__inner {
     background-color: $main-background;
-    border-radius: $smooth-corners;
+    border-radius: $size-4px;
   }
   .el-textarea__inner::placeholder {
     color: $blue-primary;
