@@ -97,7 +97,7 @@ export default {
       .add-advertisement {
         background: $white-background;
         padding: 14px 5px;
-        border-radius: $size-4px;
+        border-radius: 4px;
 
         a {
           padding: 10px;

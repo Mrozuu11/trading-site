@@ -82,9 +82,9 @@ export default {
           }
         }
         .text-wrapper {
-          font-size: $size-20px;
+          font-size: $large-font-size;
           .last-seen {
-            font-size: $size-14px;
+            font-size: 14px;
             color: $fav-hover;
           }
         }

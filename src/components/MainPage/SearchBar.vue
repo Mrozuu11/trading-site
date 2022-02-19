@@ -96,7 +96,7 @@ export default {
       background: $white-background;
       display: flex;
       border: none;
-      border-radius: $size-4px;
+      border-radius: 4px;
       padding: 0;
       margin: 0;
       height: 72px;
@@ -114,12 +114,12 @@ export default {
           display: flex;
           width: 100%;
           border-right: 1px solid $main-background;
-          border-radius: $size-4px;
+          border-radius: 4px;
 
           input {
             border: 0;
             outline: 0;
-            font-size: $size-16px;
+            font-size: $primary-font-size;
             width: 100%;
           }
         }

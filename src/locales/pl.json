@@ -343,7 +343,7 @@
       "location": "Lokalizacja",
       "user": "Użytkownik",
       "moreFromUser": "Więcej od tego ogłoszeniodawcy",
-      "rateUser": "Ten ogłoszeniodawca nie otrzymał jeszcze żadnych ocen. Bądź pierwszym który oceni współpracę!",
+      "rateUser": "Ten ogłoszeniodawca nie otrzymał jeszcze żadnych ocen.",
       "lastSeen": "Ostatnio online: ",
       "registered": "Na OLX od: "
     },
@@ -359,5 +359,10 @@
   },
   "favourite": {
     "header": "Twoje ulubione ogłoszenia"
+  },
+  "sortingPanel": {
+    "cheapest": "Najdroższe",
+    "mostExpensive": "Najtańsze",
+    "newest": "Najnowsze"
   }
 }

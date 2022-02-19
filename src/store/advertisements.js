@@ -312,39 +312,38 @@ const getters = {
     return state.favAds;
   },
   getFilteredAds: (state, getters, rootState) => {
-    return state.ads.filter((ad) => {
-      return (
-        (!rootState.filters.carFilters.brand?.id ||
-          rootState.filters.carFilters.brand.id === ad.brand.id) &&
-        (!rootState.filters.carFilters.model?.id ||
-          rootState.filters.carFilters.model.id === ad.model.id) &&
-        (!rootState.filters.carFilters.price?.from ||
-          rootState.filters.carFilters.price.from <= ad.price) &&
-        (!rootState.filters.carFilters.price?.to ||
-          rootState.filters.carFilters.price.to >= ad.price) &&
-        (!rootState.filters.carFilters.year?.from ||
-          rootState.filters.carFilters.year.from <= ad.year) &&
-        (!rootState.filters.carFilters.year?.to ||
-          rootState.filters.carFilters.year.to >= ad.year)
-      );
-    });
-  },
-  getSortedAds: (state, getters, rootState) => {
-    return [...getters.getFilteredAds].sort((a, b) => {
-      if (rootState.filters.sortValue === 1) {
-        return Date.parse(b.date) - Date.parse(a.date);
-      }
-      if (rootState.filters.sortValue === 3) {
-        return b.price - a.price;
-      }
-      return a.price - b.price;
-    });
+    return [...state.ads]
+      .filter((ad) => {
+        return (
+          (!rootState.filters.carFilters.brand?.id ||
+            rootState.filters.carFilters.brand.id === ad.brand.id) &&
+          (!rootState.filters.carFilters.model?.id ||
+            rootState.filters.carFilters.model.id === ad.model.id) &&
+          (!rootState.filters.carFilters.price?.from ||
+            rootState.filters.carFilters.price.from <= ad.price) &&
+          (!rootState.filters.carFilters.price?.to ||
+            rootState.filters.carFilters.price.to >= ad.price) &&
+          (!rootState.filters.carFilters.year?.from ||
+            rootState.filters.carFilters.year.from <= ad.year) &&
+          (!rootState.filters.carFilters.year?.to ||
+            rootState.filters.carFilters.year.to >= ad.year)
+        );
+      })
+      .sort((a, b) => {
+        if (rootState.filters.sortValue === 1) {
+          return Date.parse(b.date) - Date.parse(a.date);
+        }
+        if (rootState.filters.sortValue === 3) {
+          return b.price - a.price;
+        }
+        return a.price - b.price;
+      });
   },
   getHighlightedAds: (state, getters) => {
-    return getters.getSortedAds.filter((ad) => ad.highlighted);
+    return getters.getFilteredAds.filter((ad) => ad.highlighted);
   },
   getRegularAds(state, getters) {
-    return getters.getSortedAds.filter((ad) => !ad.highlighted);
+    return getters.getFilteredAds.filter((ad) => !ad.highlighted);
   },
 };
 

@@ -25,7 +25,7 @@ export default {
 <style lang="scss" scoped>
 .fav-container {
   h3 {
-    font-size: $size-32px;
+    font-size: $header-font-size;
     font-weight: bold;
     margin: 0;
     padding: 36px;

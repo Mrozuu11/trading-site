@@ -9,10 +9,10 @@ a {
 button {
   cursor: pointer;
   background: transparent;
-  font-size: $size-16px;
-  font-family: $font-type;
+  font-size: $primary-font-size;
+  font-family: $basic-font-type;
   color: $blue-primary;
-  border-radius: $size-4px;
+  border-radius: 4px;
 }
 
 ul {
@@ -22,14 +22,14 @@ ul {
 }
 
 .border-radius {
-  border-radius: $size-4px;
+  border-radius: 4px;
 }
 
 #app {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  font-family: $font-type;
-  font-size: $size-16px;
+  font-family: $basic-font-type;
+  font-size: $primary-font-size;
   text-align: center;
   color: $blue-primary;
   position: absolute;

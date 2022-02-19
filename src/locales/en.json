@@ -4,13 +4,11 @@
     "profile": "My Profile",
     "addListing": "Add a listing"
   },
-
   "searchBar": {
     "searchText": "Enter the phrase to search...",
     "location": "Countrywide",
     "searchButton": "Search"
   },
-
   "categories": {
     "header": "Main Categories",
     "dropdownHeader": "See all adverts in",
@@ -227,7 +225,6 @@
       "name": "Mobile phones"
     }
   },
-
   "filtersPanel": {
     "filtersHeader": "Filters",
     "all": "All",
@@ -238,7 +235,6 @@
     "from": "From",
     "to": "To"
   },
-
   "carsPage": {
     "carsPageHeader": "We found {n} advertisement | We found {n} advertisements",
     "sortPlaceholder": "Sort",
@@ -250,9 +246,7 @@
     "highlightedAds": "Highlighted Advertisements",
     "regularAds": "Other Advertisements"
   },
-
   "advertisement": {
-    "isHighlighted": "HIGHLIGHTED ADVERTISEMENT",
     "1": {
       "title": "Chevrolet Camaro 2015, MOT, Insurance, Stored in a Garage",
       "description": "Warsaw, 8th Dec",
@@ -322,19 +316,17 @@
       "fuel": "Gas",
       "color": "Orange",
       "condition": "Brand New"
-    }
+    },
+    "isHighlighted": "HIGHLIGHTED ADVERTISEMENT"
   },
-
   "carDetails": {
     "views": "Views: ",
     "detailsDescription": "Description",
     "textboxPlaceholder": "Write your message...",
-
     "breadCrumb": {
       "mainPage": "Main Page",
       "category": "Motorisation"
     },
-
     "buttons": {
       "backBtn": "Back",
       "refreshBtn": "REFRESH",
@@ -343,21 +335,18 @@
       "messageBtn": "Send a message",
       "submitBtn": "Send"
     },
-
     "messages": {
       "calling": "I'm calling: ",
       "sent": "Sent to: "
     },
-
     "userInfo": {
       "location": "Location",
       "user": "User",
       "moreFromUser": "More from this user",
-      "rateUser": "This user has no reviews yet. Be the first user to add one!",
+      "rateUser": "This user has no reviews yet.",
       "lastSeen": "Last seen: ",
       "registered": "Joined on: "
     },
-
     "infoPanels": {
       "brandInfo": "Brand: ",
       "modelInfo": "Model: ",
@@ -370,5 +359,10 @@
   },
   "favourite": {
     "header": "Your favourite advertisements"
+  },
+  "sortingPanel": {
+    "cheapest": "Cheapest",
+    "mostExpensive": "Most Expensive",
+    "newest": "Newest"
   }
 }

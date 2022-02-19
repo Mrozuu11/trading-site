@@ -1,0 +1,368 @@
+{
+  "nav": {
+    "messages": "Mitteilungen",
+    "profile": "Mein Profil",
+    "addListing": "Eintrag hinzufügen"
+  },
+  "searchBar": {
+    "searchText": "Geben Sie den Suchbegriff ein...",
+    "location": "Landesweit",
+    "searchButton": "Suche"
+  },
+  "categories": {
+    "header": "Hauptkategorien",
+    "dropdownHeader": "Sehen Sie alle Anzeigen in",
+    "motorisation": {
+      "name": "Motorisierung",
+      "subCategories": {
+        "passengerCars": "Personenkraftwagen",
+        "carParts": "Autoteile",
+        "othersMoto": "Andere in der Motorisierung",
+        "carAudio": "Car Audio",
+        "motorbikes": "Motorräder",
+        "tiresAndWheels": "Reifen und Räder",
+        "vans": "Vans",
+        "insurance": "Versicherung",
+        "motorbikeParts": "Motorradteile",
+        "trailers": "Anhänger"
+      }
+    },
+    "estate": {
+      "name": "Immobilie",
+      "subCategories": {
+        "flats": "Wohnungen",
+        "garagesAndParking": "Garagen und Parkplätze",
+        "othersEstate": "Andere im Anwesen",
+        "houses": "Häuser",
+        "garden": "Garten",
+        "offices": "Büros",
+        "rooms": "Zimmer zu vermieten",
+        "warehouses": "Lagerhäuser",
+        "workersAccommodation": "Arbeiterunterkunft",
+        "land": "Land"
+      }
+    },
+    "jobs": {
+      "name": "Arbeitsplätze",
+      "subCategories": {
+        "administration": "Verwaltung",
+        "construction": "Bau / Wartung",
+        "callCenter": "callCenter",
+        "eCommerce": "E-Commerce",
+        "education": "Bildung",
+        "finance": "Finanzen / Buchhaltung",
+        "franchise": "Franchise / eigene Geschäft",
+        "hairdressing": "Friseur- / Kosmetik",
+        "hospitality": "Gastfreundschaft",
+        "hr": "HR",
+        "host": "Gastgeber",
+        "hotels": "Hotel"
+      }
+    },
+    "home": {
+      "name": "Haus und Garten",
+      "subCategories": {
+        "furniture": "Möbel",
+        "wellBeing": "Wohlbefinden",
+        "garden": "Garten",
+        "tools": "Werkzeuge",
+        "buildingMaterials": "Baustoffe",
+        "heating": "Heizungslösungen",
+        "interior": "Innenausstattung",
+        "othersHome": "Andere in Haus und Garten",
+        "agd": "AGD-Geräte"
+      }
+    },
+    "electronics": {
+      "name": "Elektronik",
+      "subCategories": {
+        "phoneAccessories": "Telefon Zubehör",
+        "photography": "Fotografie",
+        "games": "Spiele und Konsolen",
+        "computers": "Computers",
+        "smartwatches": "Smartwatches und Bands.",
+        "agd": "AGD-Ausrüstung ",
+        "audio": "Tontechnik",
+        "video": "Videoausrüstung.",
+        "mobilePhones": "Mobiltelefone",
+        "tv": "TV",
+        "othersElectronics": "Andere in der Elektronik"
+      }
+    },
+    "fashion": {
+      "name": "Mode",
+      "subCategories": {
+        "clothes": "Kleider",
+        "shoes": "Schuhe",
+        "underwear": "Unterwäsche",
+        "maternity": "Mutterschaftsbekleidung.",
+        "fashionAccessories": "Mode-Accessoires",
+        "jewelry": "Schmuck",
+        "handbags": "Handtaschen",
+        "watches": "Uhren",
+        "cosmetics": "Kosmetika und Duftstoffe.",
+        "othersFashion": "Andere in der Mode",
+        "weddingFashion": "Hochzeitsmode",
+        "weddingAccessories": "Hochzeitszubehör"
+      }
+    },
+    "agriculture": {
+      "name": "Landwirtschaft",
+      "subCategories": {
+        "tractors": "Traktoren",
+        "agriculturalMachines": "Landwirtschaftliche Maschinen",
+        "agricultureTrailer": "Anhänger",
+        "agricultureParts": "Teile für landwirtschaftliche Maschinen",
+        "agricultureTires": "Landwirtschaftliche Reifen",
+        "agricultureProducts": "Agrarprodukte",
+        "agricultureAnimals": "Tiere",
+        "market": "Markt",
+        "othersAgriculture": "Andere in der Landwirtschaft"
+      }
+    },
+    "animals": {
+      "name": "Tiere",
+      "subCategories": {
+        "dogs": "Hunde",
+        "cats": "Katzen",
+        "birds": "Vögel",
+        "rodents": "Nagetiere und Kaninchen",
+        "horses": "Pferde",
+        "fishKeeping": "Fischhaltung",
+        "othersAnimals": "Andere Tiere",
+        "animalAccessories": "Tierzubehör",
+        "lostAndFound": "Verloren und gefunden"
+      }
+    },
+    "children": {
+      "name": "Kinderartikel.",
+      "subCategories": {
+        "toys": "Spielzeuge",
+        "buggies": "Buggys.",
+        "infantAccessories": "Zubehör zum infants",
+        "seats": "Kind Sitze",
+        "childrenClothing": "Kinder Kleidung",
+        "childrenShoes": "Kinder Schuhe",
+        "childrenFurniture": "Kinder Möbel",
+        "othersChildren": "Andere zum Kinder"
+      }
+    },
+    "sport": {
+      "name": "Sport und Hobby",
+      "subCategories": {
+        "ridingAccessories": "Reiten Zubehör",
+        "tickets": "Tickets",
+        "fitness": "Fitness",
+        "boardGames": "Planke Spiele",
+        "collections": "Sammlungen",
+        "militaries": "Militäre",
+        "sportShoes": "sport Schuhe",
+        "sportClothing": "Sportplatzhing",
+        "bikes": "Fahrräder",
+        "skating": "Skating",
+        "community": "Gemeinschaft",
+        "waterSports": "Wasser Sport",
+        "winterSports": "Winter Sport",
+        "tourism": "Tourismus",
+        "fishing": "Angeln",
+        "otherSports": "Andere Sport"
+      }
+    },
+    "music": {
+      "name": "Musik und Bildung",
+      "subCategories": {
+        "books": "Bücher",
+        "music": "Musik",
+        "films": "Filme",
+        "instruments": "Instrumente",
+        "languageResources": "Sprachressourcen",
+        "othersMusic": "Andere im Musik und Bildung"
+      }
+    },
+    "services": {
+      "name": "Dienstleistungen und Unternehmen",
+      "subCategories": {
+        "services": "Dienstleistungen",
+        "businessEquipment": "Unternehmen Ausrüstung",
+        "weddingServices": "Hochzeit Dienstleistungen",
+        "constructionAndMaintenance": "Konstruktion und Instandhaltung",
+        "privateLessons": "Privat Lektionen",
+        "courses": "Kurse und Workshops.",
+        "furnishing": "Brauch-gemacht Einrichtung",
+        "musicians": "Musiker",
+        "events": "Veranstaltungen Dienstleistungen",
+        "rtvAgdRepairs": "RTV/AGD Instandsetzung",
+        "cleaning": "Reinigung",
+        "translation": "Übersetzung",
+        "animalServices": "Tier Dienstleistungen",
+        "financialServices": "Finanziell Dienstleistungen",
+        "it": "ES Dienstleistungen",
+        "cosmeticServices": "Kosmetische Dienstleistungen.",
+        "motoServices": "Motorisierung Dienstleistungen",
+        "gardenServices": "Gartenarbeit Dienstleistungen",
+        "advertServices": "Werbung Dienstleistungen",
+        "transportServices": "Transport Dienstleistungen",
+        "healthServices": "Die Gesundheit Dienstleistungen",
+        "otherServices": "Andere Dienstleistungen"
+      }
+    },
+    "accomodation": {
+      "name": "Unterkunft"
+    },
+    "freebies": {
+      "name": "Freebies."
+    },
+    "swap": {
+      "name": "Tausch Artikel"
+    },
+    "delivery": {
+      "name": "Arbeit als ein Kurierin"
+    },
+    "mountainHouse": {
+      "name": "Berg Häuser"
+    },
+    "phones": {
+      "name": "Handy, Mobiltelefon Telefone"
+    }
+  },
+  "sortingPanel": {
+    "cheapest": "Am billigsten",
+    "mostExpensive": "Teuersten",
+    "newest": "Neueste"
+  },
+  "advertisement": {
+    "1": {
+      "color": "Gelb",
+      "condition": "Prägefrisch",
+      "description": "Warschau, 8. Dez",
+      "fuel": "Gas",
+      "title": "Chevrolet Camaro 2015, TÜV, Versicherung, in einer Garage gelagert"
+    },
+    "2": {
+      "color": "Rot",
+      "condition": "Prägefrisch",
+      "description": "Zyglin, 29. Okt",
+      "fuel": "Gas",
+      "title": "Ford Mustang 2014, Erstbesitzer"
+    },
+    "3": {
+      "color": "Gelb",
+      "condition": "Prägefrisch",
+      "description": "Posen, 28.11",
+      "fuel": "Gas",
+      "title": "1982er Chevrolet Corvette C3"
+    },
+    "4": {
+      "color": "Orange",
+      "condition": "Sehr gut",
+      "description": "Krakau, 3. Dez",
+      "fuel": "Gas",
+      "title": "Ferrari F430, perfekter Zustand, geringe Laufleistung"
+    },
+    "5": {
+      "color": "Silber",
+      "condition": "Renoviert",
+      "description": "Lubin, 27.11",
+      "fuel": "Gas",
+      "title": "Porsche 911 Carrera 933"
+    },
+    "6": {
+      "color": "Blau",
+      "condition": "Gut",
+      "description": "Danzig, 2. Dez",
+      "fuel": "Gas",
+      "title": "Subaru Impreza WRXSTI"
+    },
+    "7": {
+      "color": "Clementine",
+      "condition": "Brandneu",
+      "description": "Warschau, 29.11",
+      "fuel": "Gas",
+      "title": "McLaren P1 2016"
+    },
+    "8": {
+      "color": "Weiß",
+      "condition": "Benutzt",
+      "description": "Breslau, 18.11",
+      "fuel": "Gas",
+      "title": "Nissan GT-r R35, perfekter Zustand, geringe Laufleistung"
+    },
+    "9": {
+      "color": "Schwarz",
+      "condition": "B",
+      "description": "Warschau, 30.11",
+      "fuel": "Gas",
+      "title": "Audi R8 V10 Typ 42, stand in einer Garage"
+    },
+    "10": {
+      "color": "Orange",
+      "condition": "Brandneu",
+      "description": "Danzig, 1. Dez",
+      "fuel": "Gas",
+      "title": "Lamborghini Aventador V12, 2016, importiert aus den USA"
+    },
+    "isHighlighted": "HERVORRAGENDE WERBUNG"
+  },
+  "filtersPanel": {
+    "filtersHeader": "Filter",
+    "brand": "Marke",
+    "all": "Alle",
+    "model": "Modell",
+    "price": "Preis",
+    "from": "Von",
+    "to": "Zu",
+    "year": "Herstellungsjahr"
+  },
+  "carsPage": {
+    "sortPlaceholder": "Sortieren",
+    "carsPageHeader": "Wir haben {n} Anzeige gefunden |\nWir haben {n} Anzeigen gefunden",
+    "highlightedAds": "Hervorgehobene Anzeigen",
+    "regularAds": "Andere Anzeigen",
+    "sortingPanel": {
+      "cheapest": "Am billigsten",
+      "mostExpensive": "Teuerste",
+      "newest": "Neueste"
+    }
+  },
+  "carDetails": {
+    "infoPanels": {
+      "brandInfo": "Marke: ",
+      "modelInfo": "Modell: ",
+      "yearInfo": "Herstellungsjahr: ",
+      "mileageInfo": "Kilometerstand: ",
+      "fuelInfo": "Treibstoff: ",
+      "colorInfo": "Farbe: ",
+      "conditionInfo": "Kondition: "
+    },
+    "detailsDescription": "Beschreibung",
+    "messages": {
+      "calling": "Ich rufe an: ",
+      "sent": "Gesendet an: "
+    },
+    "views": "Ansichten: ",
+    "buttons": {
+      "reportBtn": "Prüfbericht",
+      "backBtn": "Zurück",
+      "submitBtn": "Senden",
+      "refreshBtn": "AKTUALISIERUNG",
+      "callBtn": "Rufen Sie mich an",
+      "messageBtn": "Eine Nachricht schicken"
+    },
+    "breadCrumb": {
+      "mainPage": "Hauptseite",
+      "category": "Motorisierung"
+    },
+    "userInfo": {
+      "registered": "Beigetreten am:",
+      "lastSeen": "Zuletzt gesehen:",
+      "location": "Ort",
+      "user": "Nutzer",
+      "moreFromUser": "Mehr von diesem Benutzer",
+      "rateUser": "Dieser Benutzer hat noch keine Bewertungen."
+    },
+    "textboxPlaceholder": "Schreibe deine Nachricht..."
+  },
+  "favourite": {
+    "header": "Ihre Lieblingswerbung"
+  }
+}

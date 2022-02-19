@@ -27,7 +27,7 @@ export default {
 .bottom-bar {
   display: flex;
   justify-content: space-between;
-  font-size: $size-12px;
+  font-size: $mini-font-size;
   color: $date-color;
   .report-wrapper {
     display: flex;

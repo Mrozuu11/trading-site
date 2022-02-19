@@ -80,7 +80,7 @@ a:hover {
       bottom: 0;
       left: 0;
       padding: 4px 10px;
-      font-size: $size-12px;
+      font-size: $mini-font-size;
       letter-spacing: 0.8px;
       border-radius: 0 2px 0 0;
       background: $turquoise-cat;
@@ -107,7 +107,7 @@ a:hover {
     }
     .title {
       text-align: left;
-      font-size: $size-20px;
+      font-size: $large-font-size;
     }
     .price {
       justify-content: flex-end;
@@ -116,7 +116,7 @@ a:hover {
     .description {
       justify-content: flex-start;
       align-items: flex-end;
-      font-size: $size-12px;
+      font-size: $mini-font-size;
       color: $date-color;
     }
 

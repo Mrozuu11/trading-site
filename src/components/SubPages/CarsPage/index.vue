@@ -3,7 +3,7 @@
     <div class="car-wrapper">
       <div class="top-bar">
         <h2 class="top-head">
-          {{ $tc("carsPage.carsPageHeader", getSortedAds.length) }}
+          {{ $tc("carsPage.carsPageHeader", getFilteredAds.length) }}
         </h2>
         <SortingPanel />
       </div>
@@ -41,7 +41,6 @@ export default {
     ...mapGetters("advertisements", [
       "getAds",
       "getFilteredAds",
-      "getSortedAds",
       "getHighlightedAds",
       "getRegularAds",
     ]),

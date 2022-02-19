@@ -1,6 +1,6 @@
 .el-select-dropdown__item {
   background: $white-background;
-  font-family: $font-type;
+  font-family: $basic-font-type;
 }
 
 .el-select-dropdown__item:hover {
@@ -10,7 +10,7 @@
 }
 
 .el-input__inner {
-  font-family: $font-type;
+  font-family: $basic-font-type;
   color: $blue-primary;
 }
 
@@ -25,7 +25,7 @@
   background: transparent;
   color: $blue-primary;
   font-weight: bold;
-  font-size: $size-16px;
+  font-size: $primary-font-size;
 
   .el-icon-arrow-left {
     font-weight: 900;
@@ -35,10 +35,10 @@
 .el-textarea {
   .el-textarea__inner {
     background-color: $main-background;
-    border-radius: $size-4px;
+    border-radius: 4px;
   }
   .el-textarea__inner::placeholder {
     color: $blue-primary;
-    font-family: $font-type;
+    font-family: $basic-font-type;
   }
 }

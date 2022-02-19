@@ -3,7 +3,7 @@
     <SearchBar />
     <div class="page-container">
       <div class="page-path">
-        <BreadCrumb :ad="this.ad" />
+        <BreadCrumb :ad="ad" />
       </div>
 
       <div class="page-wrapper">
@@ -228,7 +228,7 @@ export default {
       .page {
         .background {
           background: $white-background;
-          border-radius: $size-4px;
+          border-radius: 4px;
         }
         &-left {
           width: $content-width;
@@ -255,7 +255,7 @@ export default {
               justify-content: space-between;
               .date-text {
                 color: $date-color;
-                font-size: $size-12px;
+                font-size: $mini-font-size;
               }
 
               .fav-button-container {
@@ -269,7 +269,7 @@ export default {
             }
             .title-container {
               .title-text {
-                font-size: $size-32px;
+                font-size: $header-font-size;
                 font-weight: 500;
               }
             }

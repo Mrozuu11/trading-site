@@ -99,7 +99,7 @@ export default {
     margin: auto;
 
     .categories-header {
-      font-size: $size-32px;
+      font-size: $header-font-size;
       margin: 0;
       margin-bottom: 56px;
     }

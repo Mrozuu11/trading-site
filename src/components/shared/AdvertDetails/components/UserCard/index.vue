@@ -69,14 +69,14 @@ export default {
     flex-wrap: wrap;
 
     .text-wrapper {
-      font-size: $size-20px;
+      font-size: $large-font-size;
       .last-seen {
-        font-size: $size-14px;
+        font-size: 14px;
         color: $fav-hover;
       }
       .link {
         margin-top: 1em;
-        font-size: $size-14px;
+        font-size: 14px;
       }
     }
 
@@ -100,10 +100,10 @@ export default {
 
       .btn {
         font-weight: bold;
-        padding: 5px 10px;
+        padding: 7px 10px;
         text-align: center;
         width: 50%;
-        height: 3em;
+        height: auto;
 
         &-call,
         &-msg:hover {
