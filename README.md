@@ -5,7 +5,7 @@ functionality of global stylesheet in Vue as well as SCSS variables. The project
 
 The current stage of the project is presented on the GIFs below:
 
-[![olx-landing-demo.gif](https://i.postimg.cc/QCcYJmxL/olx-landing-demo.gif)](https://postimg.cc/D4yc2qX5)
+[![olx-landing-demo.gif](https://i.postimg.cc/d0s8HXZF/olx-landing-demo.gif)](https://postimg.cc/tscZ7Bzv)
 
 [![car-Page-demo.gif](https://i.postimg.cc/CL2Xpczg/car-Page-demo.gif)](https://postimg.cc/F7jDjgyW)
 
