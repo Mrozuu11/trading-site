@@ -7,9 +7,9 @@ The current stage of the project is presented on the GIFs below:
 
 [![olx-landing-demo.gif](https://i.postimg.cc/QCcYJmxL/olx-landing-demo.gif)](https://postimg.cc/D4yc2qX5)
 
-[![car-Page-demo.gif](https://i.postimg.cc/qvCggv9L/car-Page-demo.gif)](https://postimg.cc/5XbfRb9Y)
+[![car-Page-demo.gif](https://i.postimg.cc/CL2Xpczg/car-Page-demo.gif)](https://postimg.cc/F7jDjgyW)
 
-[![details-demo.gif](https://i.postimg.cc/Bb6n3ST2/details-demo.gif)](https://postimg.cc/hzkBbq3G)
+[![details-demo.gif](https://i.postimg.cc/tTDvS5L8/details-demo.gif)](https://postimg.cc/jwwhCzqh)
 
 ## Project setup
 
