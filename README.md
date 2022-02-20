@@ -1,9 +1,5 @@
-THIS PROJECT IS A CLONE OF A POLISH WEBSITE - OLX.PL.
-[https://www.olx.pl]
-I hold no rights to the original website and it was replicated only for educational purposes.
-
-I created it using Vue.JS and employing its Vuex (store) and Router functionality.
-It was translated to English and Polish with I18N library and includes ElementUI components.
+I created this project using Vue.JS and employing its Vuex (store) and Router functionality.
+It was translated to numerous languages with I18N library and includes ElementUI components.
 The main purpose was to familiarise myself with Vue.JS, its reactivity and modular build. I chose to build this project due to its high modularity and opportunity to create and employ numerous reusable components. The styling was done using SASS pre-processors (SCSS) and helped me understand the
 functionality of global stylesheet in Vue as well as SCSS variables. The project is still being regularly updated with new functionality and code reviews to make it better.
 

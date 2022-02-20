@@ -4,7 +4,7 @@
       <div class="header-content">
         <div class="logo-container">
           <a href="/">
-            <img class="logo" src="@/assets/OLX-logo.jpg" />
+            <img class="logo" src="@/assets/app-logo.png" />
           </a>
           <LocaleSwitcher />
         </div>
@@ -68,7 +68,7 @@ export default {
 
       .logo {
         padding-right: 10px;
-        width: 71px;
+        width: 100px;
       }
     }
 

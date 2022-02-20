@@ -1,3 +1,4 @@
+import { SORT_MODES } from "../util/filter-modes";
 const state = {
   favAds: [],
   ads: [
@@ -330,10 +331,10 @@ const getters = {
         );
       })
       .sort((a, b) => {
-        if (rootState.filters.sortValue === 1) {
+        if (rootState.filters.sortValue === SORT_MODES.NEWEST) {
           return Date.parse(b.date) - Date.parse(a.date);
         }
-        if (rootState.filters.sortValue === 3) {
+        if (rootState.filters.sortValue === SORT_MODES.MOST_EXPENSIVE) {
           return b.price - a.price;
         }
         return a.price - b.price;

@@ -6,7 +6,7 @@ const state = {
       name: "motorisation",
       id: 1,
       class: "motoryzacja",
-      src: "https://categories.olxcdn.com/assets/categories/olxpl/motoryzacja-5-2x.png",
+      src: "https://cdn-icons-png.flaticon.com/512/744/744465.png",
       link: "/cars",
       subCategories: [
         {
@@ -75,7 +75,7 @@ const state = {
       name: "estate",
       id: 2,
       class: "nieruchomosci",
-      src: "https://categories.olxcdn.com/assets/categories/olxpl/nieruchomosci-3-2x.png",
+      src: "https://cdn-icons.flaticon.com/png/512/2925/premium/2925791.png?token=exp=1645379714~hmac=4cfdda19f3352d0798b36ea18f95bd58",
       link: "/cars",
       subCategories: [
         {
@@ -129,7 +129,7 @@ const state = {
       name: "jobs",
       id: 3,
       class: "praca",
-      src: "https://categories.olxcdn.com/assets/categories/olxpl/praca-4-2x.png",
+      src: "https://cdn-icons-png.flaticon.com/512/3281/3281289.png",
       link: "/cars",
       subCategories: [
         {
@@ -200,7 +200,7 @@ const state = {
       name: "home",
       id: 4,
       class: "dom",
-      src: "https://categories.olxcdn.com/assets/categories/olxpl/dom-ogrod-628-2x.png",
+      src: "https://cdn-icons.flaticon.com/png/512/3194/premium/3194570.png?token=exp=1645380275~hmac=682465064e898528dfe884979a584a55",
       link: "/cars",
       subCategories: [
         { name: "Meble", id: 1, link: "www.wikipedia.com", code: "furniture" },
@@ -253,7 +253,7 @@ const state = {
       name: "electronics",
       id: 5,
       class: "elektronika",
-      src: "https://categories.olxcdn.com/assets/categories/olxpl/elektronika-99-2x.png",
+      src: "https://cdn-icons-png.flaticon.com/512/900/900618.png",
       link: "/cars",
       subCategories: [
         {
@@ -318,7 +318,7 @@ const state = {
       name: "fashion",
       id: 6,
       class: "moda",
-      src: "https://categories.olxcdn.com/assets/categories/olxpl/moda-87-2x.png",
+      src: "https://cdn-icons.flaticon.com/png/512/2558/premium/2558292.png?token=exp=1645380647~hmac=52357b6b67e598074712c333ffb01c92",
       link: "/cars",
       subCategories: [
         { name: "Ubrania", id: 1, link: "www.wikipedia.com", code: "clothes" },
@@ -379,7 +379,7 @@ const state = {
       name: "agriculture",
       id: 7,
       class: "rolnictwo",
-      src: "https://categories.olxcdn.com/assets/categories/olxpl/rolnictwo-757-2x.png",
+      src: "https://cdn-icons.flaticon.com/png/512/3967/premium/3967109.png?token=exp=1645380712~hmac=890a373437232cd51f1fa35b72c2cf7d",
       link: "/cars",
       subCategories: [
         {
@@ -437,7 +437,7 @@ const state = {
       name: "animals",
       id: 8,
       class: "zwierzeta",
-      src: "https://categories.olxcdn.com/assets/categories/olxpl/zwierzeta-103-2x.png",
+      src: "https://cdn-icons-png.flaticon.com/512/616/616574.png",
       link: "/cars",
       subCategories: [
         { name: "Psy", id: 1, link: "www.wikipedia.com", code: "dogs" },
@@ -485,7 +485,7 @@ const state = {
       name: "children",
       id: 9,
       class: "dzieci",
-      src: "https://categories.olxcdn.com/assets/categories/olxpl/dla-dzieci-88-2x.png",
+      src: "https://cdn-icons.flaticon.com/png/512/2880/premium/2880701.png?token=exp=1645380786~hmac=fc8131704ce546ef8463123b18175eef",
       link: "/cars",
       subCategories: [
         { name: "Zabawki", id: 1, link: "www.wikipedia.com", code: "toys" },
@@ -537,7 +537,7 @@ const state = {
       name: "sport",
       id: 10,
       class: "sport",
-      src: "https://categories.olxcdn.com/assets/categories/olxpl/sport-hobby-767-2x.png",
+      src: "https://cdn-icons-png.flaticon.com/512/857/857455.png",
       link: "/cars",
       subCategories: [
         {
@@ -627,7 +627,7 @@ const state = {
       name: "music",
       id: 11,
       class: "muzyka",
-      src: "https://categories.olxcdn.com/assets/categories/olxpl/muzyka-edukacja-751-2x.png",
+      src: "https://cdn-icons.flaticon.com/png/512/2341/premium/2341754.png?token=exp=1645380876~hmac=9d7a1e856af6c4f9e029480b98cf88e1",
       link: "/cars",
       subCategories: [
         { name: "Książki", id: 1, link: "www.wikipedia.com", code: "books" },
@@ -662,7 +662,7 @@ const state = {
       name: "services",
       id: 12,
       class: "uslugi",
-      src: "https://categories.olxcdn.com/assets/categories/olxpl/uslugi-firmy-619-2x.png",
+      src: "https://cdn-icons-png.flaticon.com/512/2706/2706950.png",
       link: "/cars",
       subCategories: [
         { name: "Usługi", id: 1, link: "www.wikipedia.com", code: "services" },
@@ -793,42 +793,42 @@ const state = {
       name: "accomodation",
       id: 13,
       class: "noclegi",
-      src: "https://categories.olxcdn.com/assets/categories/olxpl/noclegi-1816-2x.png",
+      src: "https://cdn-icons.flaticon.com/png/512/3294/premium/3294656.png?token=exp=1645380964~hmac=db5cd21b0cc396f066b159ddf99eb779",
       link: "/cars",
     },
     {
       name: "freebies",
       id: 14,
       class: "darmo",
-      src: "https://categories.olxcdn.com/assets/categories/olxpl/oddam-za-darmo-1151-2x.png",
+      src: "https://cdn-icons.flaticon.com/png/512/2981/premium/2981336.png?token=exp=1645381037~hmac=10d8c5c4b2b94b10d1ce956692ef1976",
       link: "/cars",
     },
     {
       name: "swap",
       id: 15,
       class: "zamienie",
-      src: "https://categories.olxcdn.com/assets/categories/olxpl/zamienie-1153-2x.png",
+      src: "https://cdn-icons-png.flaticon.com/512/466/466154.png",
       link: "/cars",
     },
     {
       name: "delivery",
       id: 16,
       class: "dostawca",
-      src: "https://categories.olxcdn.com/assets/promo/olxpl/a-praca2911-1x.png",
+      src: "https://cdn-icons.flaticon.com/png/512/5736/premium/5736700.png?token=exp=1645381114~hmac=fba41ddcaf119586970641241cd3adae",
       link: "/cars",
     },
     {
       name: "mountainHouse",
       id: 17,
       class: "domek",
-      src: "https://categories.olxcdn.com/assets/promo/olxpl/b-uslugi0112-1x.png",
+      src: "https://cdn-icons.flaticon.com/png/512/2072/premium/2072317.png?token=exp=1645381149~hmac=49d303453f9873ebe1df565b98ee9fcf",
       link: "/cars",
     },
     {
       name: "phones",
       id: 18,
       class: "telefony",
-      src: "https://categories.olxcdn.com/assets/promo/olxpl/c-telefony2711-1x.png",
+      src: "https://cdn-icons.flaticon.com/png/128/3137/premium/3137807.png?token=exp=1645381184~hmac=48335392424c9735bed18488928f58a4",
       link: "/cars",
     },
   ],

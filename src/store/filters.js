@@ -1,10 +1,6 @@
+import { SORT_MODES } from "@/util/filter-modes.js";
 const state = {
-  sortValue: 1,
-  sortModes: [
-    { name: "newest", id: 1 },
-    { name: "cheapest", id: 2 },
-    { name: "mostExpensive", id: 3 },
-  ],
+  sortValue: SORT_MODES.NEWEST,
   brands: [
     {
       name: "Chevrolet",
@@ -96,9 +92,6 @@ const state = {
 const getters = {
   getSortValue: (state) => {
     return state.sortValue;
-  },
-  getSortModes: (state) => {
-    return state.sortModes;
   },
   getCarBrands: (state) => {
     return state.brands;
